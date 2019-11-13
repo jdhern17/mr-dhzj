@@ -1,0 +1,36 @@
+{
+    "name": "mr-dhzj",
+    "version": "1.0.0",
+    "description": "hernandez-portfolio",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+        "start:prod": "node server.js",
+        "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+        "client": "cd client && npm run start",
+        "seed": "node scripts/seedDB.js",
+        "install": "cd client && npm install",
+        "build": "cd client && npm run build",
+        "heroku-postbuild": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jdhern17/mr-dhzj.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jdhern17/mr-dhzj/issues"
+    },
+    "homepage": "https://github.com/jdhern17/mr-dhzj#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "if-env": "^1.0.4",
+        "mongoose": "^5.7.10"
+    },
+    "devDependencies": {
+        "concurrently": "^5.0.0",
+        "nodemon": "^1.19.4"
+    }
+}
