@@ -8,7 +8,7 @@ const router = require("express").Router();
 // pulls in api controller routes defined within the api subdirectory
 const apiRoutes = require("./api");
 
-// applies the api routes to the router instantiated
+// applies the api routes from the api folder to the router instantiated when the /api endpoint is hit
 router.use("/api", apiRoutes);
 
 // if no api routes are hit, send the react app
