@@ -23,12 +23,16 @@ app.use(routes);
 
 // connect to the mongo db
 // per mongo documentation: if the port number is not specified, the default port 27017 is used
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mr-dhzj");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mr-dhzj", {
+  useCreateIndex: true,
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 // start the express api server
 // callback function defined as the console.log that triggers given a successful definition of PORT variable
 // identify port as defined by node global variable process.env where if defined use if not define as 3001
 const PORT = process.env.PORT || 3001;
-app.listen(PORT, function() {
+app.listen(PORT, function () {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
