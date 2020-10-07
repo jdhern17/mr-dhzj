@@ -1,0 +1,36 @@
+[{
+        "title": "about me",
+        "linkName": "about-me",
+        "pageName": "About"
+    },
+    {
+        "title": "one-page resume",
+        "linkName": "one-page",
+        "pageName": "Resume"
+    },
+    {
+        "title": "skills breakdown",
+        "linkName": "skills",
+        "pageName": "Skills"
+    },
+    {
+        "title": "full resume/cv",
+        "linkName": "full-cv",
+        "pageName": "FullCV"
+    },
+    {
+        "title": "projects",
+        "linkName": "projects",
+        "pageName": "Projects"
+    },
+    {
+        "title": "contact",
+        "linkName": "contact",
+        "pageName": "Contact"
+    },
+    {
+        "title": "download links",
+        "linkName": "download",
+        "pageName": "Download"
+    }
+]

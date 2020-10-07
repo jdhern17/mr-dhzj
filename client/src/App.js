@@ -8,43 +8,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import MainContent from "./components/MainContent";
 import BarBtn from "./components/BarBtn";
-const titleArr = [
-  {
-    title: "about me",
-    linkName: "about-me",
-    pageName: "About",
-  },
-  {
-    title: "one-page resume",
-    linkName: "one-page",
-    pageName: "Resume",
-  },
-  {
-    title: "skills breakdown",
-    linkName: "skills",
-    pageName: "Skills",
-  },
-  {
-    title: "full resume/cv",
-    linkName: "full-cv",
-    pageName: "FullCV",
-  },
-  {
-    title: "projects",
-    linkName: "projects",
-    pageName: "Projects",
-  },
-  {
-    title: "contact",
-    linkName: "contact",
-    pageName: "Contact",
-  },
-  {
-    title: "download links",
-    linkName: "download",
-    pageName: "Download",
-  },
-];
+import titleArr from "./pages.json"
 
 function App() {
   return (
@@ -65,7 +29,7 @@ function App() {
             </div>
             <div className="col-8">
               <Route exact path="/" render={() => <h1>Welcome</h1>} />
-              <Route path="/:linkId" component={MainContent} />
+              <Route path="/:linkId"><MainContent/></Route>
             </div>
             <div className="col-2">{/* additional features */}</div>
           </div>
