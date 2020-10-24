@@ -7,7 +7,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Nav from "./components/Nav";
 import MainContent from "./components/MainContent";
-import BarBtn from "./components/BarBtn";
+// import BarBtn from "./components/BarBtn";
 // import titleArr from "./pages.json"
 import Sidebar from "./components/Sidebar";
 

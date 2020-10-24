@@ -1,16 +1,18 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import styled from 'styled-components';
-import titleArr from "./pages.json"
+import titleArr from '../../pages.json'
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import BarBtn from "../BarBtn";
 
 /* This defines the actual bar going down the screen */
 const StyledSideNav = styled.div`
   position: fixed;     /* Fixed Sidebar (stay in place on scroll and position relative to viewport) */
   height: 100%;
-  width: 75px;     /* Set the width of the sidebar */
+  width: 125px;     /* Set the width of the sidebar */
   z-index: 1;      /* Stay on top of everything */
   top: 3.4em;      /* Stay at the top */
-  background-color: #222; /* Black */
+  background-color: #f0e2c7; /* Black */
   overflow-x: hidden;     /* Disable horizontal scroll */
   padding-top: 10px;
 `;
