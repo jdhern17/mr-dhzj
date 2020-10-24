@@ -28,8 +28,8 @@ const MainContent = () => {
   return (
     <>
     <div className="container-fluid">
-      <div className="row">
-        <div className="col-12" style={{overflow:"scroll"}}>
+      <div className="row"><div className="col-2"></div>
+        <div className="col-10" style={{overflow:"scroll"}}>
       <CurrComp />
         </div>
       </div>
