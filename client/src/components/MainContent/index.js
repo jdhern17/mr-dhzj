@@ -8,6 +8,7 @@ import FullCV from "../../pages/FullCV";
 import Projects from "../../pages/Projects";
 import Contact from "../../pages/Contact";
 import Download from "../../pages/Download";
+import Sidebar from "../Sidebar";
 
 const MainContent = () => {
   const componentsList = {
@@ -26,7 +27,13 @@ const MainContent = () => {
   const CurrComp = componentsList[currentPage[0].pageName];
   return (
     <>
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-12" style={{overflow:"scroll"}}>
       <CurrComp />
+        </div>
+      </div>
+      </div>
     </>
   );
 };

@@ -8,15 +8,17 @@ import "./App.css";
 import Nav from "./components/Nav";
 import MainContent from "./components/MainContent";
 import BarBtn from "./components/BarBtn";
-import titleArr from "./pages.json"
+// import titleArr from "./pages.json"
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
     <>
       <Router>
         <Nav />
+        <Sidebar/>
         {/* <div className="App"><Switch></Switch></div> */}
-        <div className="container-fluid">
+        {/* <div className="container-fluid">
           <div className="row">
             <div className="col-2">
               {titleArr.length
@@ -28,12 +30,14 @@ function App() {
                 : "Welcome"}
             </div>
             <div className="col-8">
-              <Route exact path="/" render={() => <h1>Welcome</h1>} />
-              <Route path="/:linkId"><MainContent/></Route>
             </div>
-            <div className="col-2">{/* additional features */}</div>
-          </div>
-        </div>
+            <div className="col-2"></div>
+            </div>
+          </div> */}
+        <Switch>          
+          <Route exact path="/" render={() => <h1>Welcome</h1>} />
+          <Route path="/:linkId"><MainContent/></Route>
+        </Switch>
       </Router>
     </>
   );
