@@ -3,7 +3,7 @@ import React, { Component } from "react";
 const BarBtn = ({title}) => {
   return (
     <>
-      <button type="button" class="text-reset btn btn-block btn-outline-secondary">
+      <button type="button" className="text-reset btn btn-block btn-outline-secondary" style={{marginBottom:"10px"}}>
         {title}
       </button>
     </>

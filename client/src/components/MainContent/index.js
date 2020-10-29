@@ -8,10 +8,22 @@ import FullCV from "../../pages/FullCV";
 import Projects from "../../pages/Projects";
 import Contact from "../../pages/Contact";
 import Download from "../../pages/Download";
+import Welcome from "../../pages/Welcome";
 import Sidebar from "../Sidebar";
+
+import styled from 'styled-components';
+const GridWrapper = styled.div`
+  display: grid;
+  grid-gap: 10px;
+  margin-top: 1em;
+  margin-left: 20vw;
+  margin-right: 6em;
+  grid-auto-rows: minmax(25px, auto);
+`; 
 
 const MainContent = () => {
   const componentsList = {
+    Welcome: Welcome,
     About: About,
     Resume: Resume,
     Skills: Skills,
@@ -21,19 +33,16 @@ const MainContent = () => {
     Download: Download,
   };
   const { linkId } = useParams();
+  console.log(linkId);
   const currentPage = titleArr.filter((page) => {
     return linkId === page.linkName;
   });
   const CurrComp = componentsList[currentPage[0].pageName];
   return (
     <>
-    <div className="container-fluid">
-      <div className="row"><div className="col-2"></div>
-        <div className="col-10" style={{overflow:"scroll"}}>
-      <CurrComp />
-        </div>
-      </div>
-      </div>
+    <GridWrapper>
+      <CurrComp style={{overflow:"scroll"}} />
+      </GridWrapper>
     </>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 
 // imports DOM bindings for React Router for route-based code splitting
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
 
 import logo from "./logo.svg";
 import "./App.css";
@@ -16,28 +16,19 @@ function App() {
     <>
       <Router>
         <Nav />
+        <div className="container-fluid">
+{/* <div className="row">
+<div className="col-sm-2 col-md-4"> */}
         <Sidebar/>
-        {/* <div className="App"><Switch></Switch></div> */}
-        {/* <div className="container-fluid">
-          <div className="row">
-            <div className="col-2">
-              {titleArr.length
-                ? titleArr.map(({ title, linkName }, id) => (
-                    <Link class="deco-none" to={`/${linkName}`}>
-                      <BarBtn title={title} key={id} />
-                    </Link>
-                  ))
-                : "Welcome"}
-            </div>
-            <div className="col-8">
-            </div>
-            <div className="col-2"></div>
-            </div>
-          </div> */}
+{/* </div>
+<div className="col-sm-10 col-md-8"> */}
         <Switch>          
-          <Route exact path="/" render={() => <h1>Welcome</h1>} />
+          <Route exact path="/" render={() => <Redirect to="/welcome"/>} />
           <Route path="/:linkId"><MainContent/></Route>
         </Switch>
+{/* </div>
+</div> */}
+        </div>
       </Router>
     </>
   );

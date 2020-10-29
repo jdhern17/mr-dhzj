@@ -1,4 +1,9 @@
 [{
+        "title": "welcome",
+        "linkName": "welcome",
+        "pageName": "Welcome"
+    },
+    {
         "title": "about me",
         "linkName": "about-me",
         "pageName": "About"
