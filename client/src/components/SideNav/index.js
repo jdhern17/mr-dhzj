@@ -22,7 +22,7 @@ const SideNav = () => {
     <StyledSideNav>
     {titleArr.length
                 ? titleArr.map(({ title, linkName }, id) => (
-                    <Link class="deco-none" to={`/${linkName}`}>
+                    <Link class="deco-none" to={`/${linkName}`} key={id}>
                       <BarBtn title={title} key={id} />
                     </Link>
                   ))

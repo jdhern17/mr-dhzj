@@ -1,29 +1,99 @@
 [{
-        "category": "summary",
+        "chartCategory": "summary",
         "description": {
-            "labels": ["English/Spanish", "PowerPoint/Slides", "Word/Docs", "Excel/Sheets", "JSON/XML", "Flatfile/CSV", "API/REST", "Browser Dev Tools", "JavaScript", "VS Code", "SSO", "HL7v2/CCDA/HL7v3", "SQL/MySQL", "HTTP", "TCP/IP"],
+            "labels": ["PowerPoint/Slides", "Word/Docs", "Excel/Sheets", "JSON/XML", "Flatfile/CSV", "API/REST", "Browser Dev Tools", "JavaScript", "VS Code", "Single Sign-On", "HL7v2/CCDA/HL7v3", "SQL/MySQL", "HTTP", "TCP/IP"],
             "datasets": [{
                 "label": "Years of Experience",
-                "data": [29, 15, 15, 15, 5, 8, 4, 5, 2, 2, 3, 4, 3, 4, 2],
+                "data": [15, 15, 15, 5, 8, 4, 5, 2, 2, 3, 4, 3, 4, 2, 1],
                 "backgroundColor": "#dab370",
-                "borderWidth": 4,
+                "borderWidth": 2,
                 "hoverBackgroundColor": "#d5a350",
                 "minBarLength": 2
             }]
         }
     },
     {
-        "category": "athena",
+        "chartCategory": "languages",
         "description": {
-            "labels": ["English/Spanish", "PowerPoint/Slides", "Word/Docs", "Excel/Sheets", "JSON/XML", "Flatfile/CSV", "API/REST", "Browser Dev Tools", "JavaScript", "VS Code", "SSO", "HL7v2/CCDA/HL7v3", "SQL/MySQL", "HTTP", "TCP/IP"],
+            "labels": ["English", "Spanish"],
             "datasets": [{
                 "label": "Years of Experience",
-                "data": [29, 15, 15, 15, 5, 8, 4, 5, 2, 2, 3, 4, 3, 4, 2],
-                "backgroundColor": "#fff",
-                "borderWidth": 4,
-                "hoverBackgroundColor": "#fff",
+                "data": [29, 29, 5],
+                "backgroundColor": "#933710",
+                "borderWidth": 2,
+                "hoverBackgroundColor": "#d5a350",
                 "minBarLength": 2
             }]
+        }
+    }, {
+        "chartCategory": "athena",
+        "description": {
+            "datasets": [{
+                "data": [20, 20, 20, 20, 20],
+                "backgroundColor": ["#582c83", "#709123", "#b1b800", "#0093b2", "#fff"],
+                "borderWidth": 1,
+                "borderColor": "#434343",
+                "hoverBackgroundColor": "#d5a350"
+            }],
+            "labels": [
+                "SSO",
+                "CCDA, HL7v3 & HL7v2",
+                "API",
+                "Interface Project Delivery",
+                "Interface/Connectivity Troubleshooting"
+            ]
+        }
+    },
+    {
+        "chartCategory": "usds",
+        "description": {
+            "datasets": [{
+                "data": [50, 25, 25],
+                "backgroundColor": ["#c31a15", "#0e4b90", "#e3c500"],
+                "borderWidth": 1,
+                "borderColor": "#434343",
+                "hoverBackgroundColor": "#d5a350"
+            }],
+            "labels": [
+                "Project Management",
+                "Business English Teaching",
+                "Technical Support"
+            ]
+        }
+    },
+    {
+        "chartCategory": "glytec",
+        "description": {
+            "datasets": [{
+                "data": [50, 25, 25],
+                "backgroundColor": ["#0f80be", "#6db33f", "#f9fcf8"],
+                "borderWidth": 1,
+                "borderColor": "#434343",
+                "hoverBackgroundColor": "#d5a350"
+            }],
+            "labels": [
+                "Technical Project Management",
+                "Mirth/Iguana",
+                "Interface Testing"
+            ]
+        }
+    },
+    {
+        "chartCategory": "twoU",
+        "description": {
+            "datasets": [{
+                "data": [40, 20, 20, 20],
+                "backgroundColor": ["#fff", "#1576d4", "#0f65cc", "#002d58"],
+                "borderWidth": 1,
+                "borderColor": "#434343",
+                "hoverBackgroundColor": "#d5a350"
+            }],
+            "labels": [
+                "JavaScript",
+                "Node",
+                "React",
+                "HTML/CSS"
+            ]
         }
     }
 ]

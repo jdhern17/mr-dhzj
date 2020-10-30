@@ -1,10 +1,14 @@
 import React, { Component, useState, useEffect } from "react";
-import { HorizontalBar } from "react-chartjs-2";
+import { Doughnut, HorizontalBar } from "react-chartjs-2";
 import chartObj from "../Chart/chartData.json";
-const Chart = ({ category }) => {
-  const chartDesc = chartObj.filter((chartType) => {
-
-    return chartType.category === category;
+const Chart = ({ category, chartType }) => {
+  const chartsTypeList = {
+    horizontalBar: HorizontalBar,
+    doughnut: Doughnut
+  }
+  const CurrentChart = chartsTypeList[chartType]
+  const chartDesc = chartObj.filter(({chartCategory}) => {
+    return chartCategory === category;
   });
   const [chartData, setChartData] = useState({});
   const chart = () => {
@@ -17,7 +21,7 @@ const Chart = ({ category }) => {
 
   return (
     <>
-      <HorizontalBar data={chartData} />
+      <CurrentChart data={chartData} />
     </>
   );
 };

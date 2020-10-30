@@ -33,7 +33,6 @@ const MainContent = () => {
     Download: Download,
   };
   const { linkId } = useParams();
-  console.log(linkId);
   const currentPage = titleArr.filter((page) => {
     return linkId === page.linkName;
   });
@@ -41,7 +40,9 @@ const MainContent = () => {
   return (
     <>
     <GridWrapper>
-      <CurrComp style={{overflow:"scroll"}} />
+      <div style={{marginBottom: "100px"}}>
+      <CurrComp />
+      </div>
       </GridWrapper>
     </>
   );
