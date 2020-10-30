@@ -25,9 +25,11 @@
     },
     "homepage": "https://github.com/jdhern17/mr-dhzj#readme",
     "dependencies": {
+        "chart.js": "^2.9.4",
         "express": "^4.17.1",
         "if-env": "^1.0.4",
-        "mongoose": "^5.10.3"
+        "mongoose": "^5.10.3",
+        "react-chartjs-2": "^2.10.0"
     },
     "devDependencies": {
         "concurrently": "^5.3.0",
