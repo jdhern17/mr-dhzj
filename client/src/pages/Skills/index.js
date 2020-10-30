@@ -29,7 +29,15 @@ useEffect(()=> {
   </div>
   <div className="row">
     <div className="col-10">
-    <HorizontalBar data={chartData}/>
+    <div class="card">
+  <div class="card-header">
+    Summary of Skills
+  </div>
+  <div class="card-body">
+    {/* <h5 class="card-title">Special title treatment</h5> */}
+    <p class="card-text">  <HorizontalBar data={chartData}/></p>
+  </div>
+</div>
     </div>
   </div>
   </>;

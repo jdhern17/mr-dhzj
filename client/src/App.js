@@ -10,6 +10,7 @@ import MainContent from "./components/MainContent";
 // import BarBtn from "./components/BarBtn";
 // import titleArr from "./pages.json"
 import Sidebar from "./components/Sidebar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
 {/* </div>
 </div> */}
         </div>
-        <div className="footer"></div>
+        <Footer/>
       </Router>
     </>
   );
