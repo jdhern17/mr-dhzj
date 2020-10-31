@@ -12,11 +12,13 @@ import Card from "../../components/Card";
 const Skills = () => {
   return (
     <>
-      <h1 className="text-center">Technical Skill Set</h1>
-      <div className="row"></div>
-      {/* <h2 className="text-center">Overview</h2> */}
+     <div className="row">
+        <div className="col-lg-10 col-md-12 col-sm-12">
+          <h1 className="text-center">Technical Skillset</h1>
+        </div>
+      </div>
       <div className="row">
-        <div className="col-8">
+        <div className="col-lg-8 col-sm-12 col-md-12">
           <div className="card text-center">
             {/* <div className="card-header">Technical Summary</div> */}
             <div className="card-body">
@@ -29,8 +31,8 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="col-4">
-          <div className="card text-center" style={{ margin: "10px" }}>
+        <div className="col-lg-4 col-sm-12 col-md-12">
+          <div className="card text-center" style={{ marginBottom: "10px" }}>
             <div className="card-body">
               <p className="card-text">
                 <Chart category={"languages"} chartType={"horizontalBar"} />
@@ -40,7 +42,7 @@ const Skills = () => {
               <h4>Spoken Languages</h4>
             </div>
           </div>
-          <div className="card text-center" style={{ margin: "10px" }}>
+          <div className="card text-center" style={{ marginBottom: "10px" }}>
             <div className="card-body">
               <p className="card-text">
                 <Chart category={"birdsEyeView"} chartType={"horizontalBar"} />

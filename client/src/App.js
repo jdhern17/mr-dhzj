@@ -18,17 +18,11 @@ function App() {
       <Router>
         <Nav />
         <div className="container-fluid">
-{/* <div className="row">
-<div className="col-sm-2 col-md-4"> */}
         <Sidebar/>
-{/* </div>
-<div className="col-sm-10 col-md-8"> */}
         <Switch>          
           <Route exact path="/" render={() => <Redirect to="/welcome"/>} />
           <Route path="/:linkId"><MainContent/></Route>
         </Switch>
-{/* </div>
-</div> */}
         </div>
         <Footer/>
       </Router>

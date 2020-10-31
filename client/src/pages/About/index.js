@@ -2,8 +2,14 @@ import React from 'react';
 
 const About = () => {
     return ( <>
-    <h1 className="text-center">About Me</h1>
-<p>
+     <div className="row">
+        <div className="col-lg-10 col-md-12 col-sm-12">
+          <h1 className="text-center">About Me</h1>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-10 col-sm-12 col-md-12">
+          <p>
 Coming from a background in project & process management, systems integration and web development as well as a strong appreciation for continuous learning, I hope to leverage these experiences towards helping underrepresented and vulnerable populations thrive. I believe that long-lasting improvement comes from deliberate and focused attention on critical issues and not from incidental benefits granted by the status quo. I hope to work within an organization striving to strengthen more than just throughput or the bottom line.
 </p>
 <p>
@@ -25,6 +31,8 @@ If you believe similarly and know of teams using software, academic research or 
 <li>The Mentally Incapacitated</li>
 <li>The Physically Incapacitated</li>
 </ul>
+</div>
+</div>
     </>);
 }
  
