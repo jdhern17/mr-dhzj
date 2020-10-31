@@ -1,10 +1,10 @@
 [{
         "chartCategory": "summary",
         "description": {
-            "labels": ["PowerPoint/Slides", "Word/Docs", "Excel/Sheets", "JSON/XML", "Flatfile/CSV", "API/REST", "Browser Dev Tools", "JavaScript", "VS Code", "Single Sign-On", "HL7v2/CCDA/HL7v3", "SQL/MySQL", "HTTP", "TCP/IP"],
+            "labels": ["PowerPoint/Slides", "Word/Docs", "Excel/Sheets", "JSON/XML", "Flatfile/CSV", "API Consulting", "Browser Dev Tools", "JavaScript", "VS Code", "Single Sign-On Consulting", "HL7v2/CCDA/HL7v3", "SQL/MySQL", "HTTP Troubleshooting", "TCP/IP Troubleshooting", "Node", "Express", "MongoDB", "Scrum/Agile", "Photoshop", "VPN/Phase 1/2", "TLS/Certs/Keys"],
             "datasets": [{
                 "label": "Years of Experience",
-                "data": [15, 15, 15, 5, 8, 4, 5, 2, 2, 3, 4, 3, 4, 2, 1],
+                "data": [15, 15, 15, 5, 8, 4, 5, 2, 2, 3, 4, 3, 4, 2, 1, 2, 2, 1, 3, 4, 2, 2],
                 "backgroundColor": "#dab370",
                 "borderWidth": 2,
                 "hoverBackgroundColor": "#d5a350",
@@ -25,22 +25,36 @@
                 "minBarLength": 2
             }]
         }
-    }, {
+    },
+    {
+        "chartCategory": "birdsEyeView",
+        "description": {
+            "labels": ["Troubleshooting", "Technical Project Delivery"],
+            "datasets": [{
+                "label": "Years of Experience",
+                "data": [4, 5, 1],
+                "backgroundColor": "#933710",
+                "borderWidth": 2,
+                "hoverBackgroundColor": "#d5a350",
+                "minBarLength": 2
+            }]
+        }
+    },
+    {
         "chartCategory": "athena",
         "description": {
             "datasets": [{
-                "data": [20, 20, 20, 20, 20],
-                "backgroundColor": ["#582c83", "#709123", "#b1b800", "#0093b2", "#fff"],
+                "data": [25, 25, 25, 25],
+                "backgroundColor": ["#582c83", "#709123", "#b1b800", "#0093b2"],
                 "borderWidth": 1,
                 "borderColor": "#434343",
                 "hoverBackgroundColor": "#d5a350"
             }],
             "labels": [
-                "SSO",
-                "CCDA, HL7v3 & HL7v2",
-                "API",
-                "Interface Project Delivery",
-                "Interface/Connectivity Troubleshooting"
+                "Interface Scoping & Consulting",
+                "Interface Project & Go-Live Management",
+                "Connectivity Troubleshooting",
+                "Process & Documentation Management"
             ]
         }
     },
@@ -56,7 +70,7 @@
             }],
             "labels": [
                 "Project Management",
-                "Business English Teaching",
+                "Business English Instruction",
                 "Technical Support"
             ]
         }
@@ -79,6 +93,23 @@
         }
     },
     {
+        "chartCategory": "usc",
+        "description": {
+            "datasets": [{
+                "data": [50, 25, 25],
+                "backgroundColor": ["#990000", "#ffcc00", "#fff"],
+                "borderWidth": 1,
+                "borderColor": "#434343",
+                "hoverBackgroundColor": "#d5a350"
+            }],
+            "labels": [
+                "Technical Project Management",
+                "Mirth/Iguana",
+                "Interface Testing"
+            ]
+        }
+    },
+    {
         "chartCategory": "twoU",
         "description": {
             "datasets": [{
@@ -89,9 +120,9 @@
                 "hoverBackgroundColor": "#d5a350"
             }],
             "labels": [
-                "JavaScript",
-                "Node",
-                "React",
+                "JavaScript/React",
+                "Node/Express",
+                "MySQL/MongoDB",
                 "HTML/CSS"
             ]
         }
