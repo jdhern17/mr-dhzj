@@ -1,6 +1,6 @@
 // define packages
 const express = require("express");
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
 
 //pull in routes from routes folder (from index file directed to files within api folder)
 const routes = require("./routes");
@@ -23,11 +23,11 @@ app.use(routes);
 
 // connect to the mongo db
 // per mongo documentation: if the port number is not specified, the default port 27017 is used
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mr-dhzj", {
-  useCreateIndex: true,
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mr-dhzj", {
+//   useCreateIndex: true,
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
 
 // start the express api server
 // callback function defined as the console.log that triggers given a successful definition of PORT variable
