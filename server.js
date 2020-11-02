@@ -17,7 +17,8 @@ app.use(express.json());
 // define behavior for serving assets in production
 if (process.env.NODE_ENV === "production") {
   console.log("******__dirname is...*******", __dirname);
-  app.use("/static", express.static(path.join(__dirname, "client/build")));
+     app.use(express.static("client/public"));
+  // app.use("/static", express.static(path.join(__dirname, "client/public")));
 }
 
 // pulls router.Router() from index of routes folder and applies to instantiated app object
