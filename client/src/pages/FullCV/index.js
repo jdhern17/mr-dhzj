@@ -8,14 +8,13 @@ import twoU from "../../assets/images/2U_logo.png";
 import usc from "../../assets/images/usc_logo.png";
 import harvard from "../../assets/images/harvard_logo.png";
 import scheck from "../../assets/images/scheck_logo.png";
-import Card from "../../components/Card";
 
 const FullCV = () => {
   return (
     <>
       <div className="row">
         <div className="col-lg-12 col-md-12 col-sm-12">
-          <h1 className="text-center">About Me</h1>
+          <h1 className="text-center">Full Resume / Curriculum Vitae (CV)</h1>
         </div>
       </div>
       <div className="row justify-content-center">
