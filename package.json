@@ -1,6 +1,7 @@
 {
     "name": "mr-dhzj",
     "version": "1.0.0",
+    "homepage": "https://mr-dhzj-portfolio.herokuapp.com/",
     "description": "hernandez-portfolio",
     "main": "server.js",
     "scripts": {
@@ -23,7 +24,6 @@
     "bugs": {
         "url": "https://github.com/jdhern17/mr-dhzj/issues"
     },
-    "homepage": "https://mr-dhzj-portfolio.herokuapp.com/",
     "dependencies": {
         "chart.js": "^2.9.4",
         "express": "^4.17.1",
