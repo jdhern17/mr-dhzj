@@ -1,5 +1,6 @@
 // define packages
 const express = require("express");
+const path = require("path");
 // const mongoose = require("mongoose");
 
 //pull in routes from routes folder (from index file directed to files within api folder)
@@ -15,6 +16,7 @@ app.use(express.json());
 
 // define behavior for serving assets in production
 if (process.env.NODE_ENV === "production") {
+  console.log("******__dirname is...*******", __dirname);
   app.use("/static", express.static(path.join(__dirname, "client/build")));
 }
 
