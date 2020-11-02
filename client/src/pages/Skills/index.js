@@ -55,7 +55,11 @@ const Skills = () => {
         </div>
       </div>
       <br />
-      <h1 className="text-center">By Organization</h1>
+      <div className="row">
+        <div className="col-lg-10 col-md-12 col-sm-12">
+          <h1 className="text-center">By Organization</h1>
+        </div>
+      </div>
       <div className="row">
         <Card image={<img src={twoU} alt="2U" style={{ height: "50px" }} />}>
           <Chart category={"twoU"} chartType={"doughnut"} />

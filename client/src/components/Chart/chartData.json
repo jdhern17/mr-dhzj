@@ -96,16 +96,16 @@
         "chartCategory": "usc",
         "description": {
             "datasets": [{
-                "data": [50, 25, 25],
+                "data": [25, 50, 25],
                 "backgroundColor": ["#990000", "#ffcc00", "#fff"],
                 "borderWidth": 1,
                 "borderColor": "#434343",
                 "hoverBackgroundColor": "#d5a350"
             }],
             "labels": [
-                "Technical Project Management",
-                "Mirth/Iguana",
-                "Interface Testing"
+                "Research Methods",
+                "Mathematical Economics",
+                "Volunteering/Educational Outreach"
             ]
         }
     },
