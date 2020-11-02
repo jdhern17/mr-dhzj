@@ -23,7 +23,7 @@
     "bugs": {
         "url": "https://github.com/jdhern17/mr-dhzj/issues"
     },
-    "homepage": "https://github.com/jdhern17/mr-dhzj#readme",
+    "homepage": "https://mr-dhzj-portfolio.herokuapp.com/",
     "dependencies": {
         "chart.js": "^2.9.4",
         "express": "^4.17.1",
