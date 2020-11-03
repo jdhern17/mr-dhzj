@@ -21,7 +21,7 @@
     },
     "author": "",
     "license": "ISC",
-    "bugs": {
+    "OLD_bugs": {
         "url": "https://github.com/jdhern17/mr-dhzj/issues"
     },
     "dependencies": {

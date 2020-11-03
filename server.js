@@ -16,10 +16,7 @@ app.use(express.json());
 
 // define behavior for serving assets in production
 if (process.env.NODE_ENV === "production") {
-  // console.log("******__dirname is...*******", __dirname);
-  // console.log("******__dirname/client/public resolution is...*******", path.resolve(__dirname, "client/public"));
-  // console.log("******__dirname/client/public joined is...*******", path.join(__dirname, "client/public"));
-  app.use(express.static("client/public"));
+  app.use(express.static("client/build"));
   // app.use("/static", express.static(path.join(__dirname, "client/public")));
 }
 

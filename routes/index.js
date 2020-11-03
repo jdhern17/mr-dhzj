@@ -13,6 +13,7 @@ router.use("/api", apiRoutes);
 
 // if no api routes are hit, send the react app
 router.use(function(req, res) {
+  console.log("serving index file to front");
   res.sendFile(path.join(__dirname, "../client/public/index.html"));
 });
 
