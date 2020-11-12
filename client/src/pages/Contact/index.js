@@ -9,6 +9,7 @@ const Contact = () => {
       </div>
       <div className="row">
         <div className="col-lg-10 col-sm-12 col-md-12">
+          Email: hernandez.d.john@gmail.com
 </div>
 </div>
 
