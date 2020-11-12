@@ -14,14 +14,24 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// define behavior for serving assets in production
-//if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-  // app.use("/static", express.static(path.join(__dirname, "client/public")));
-//}
-
 // pulls router.Router() from index of routes folder and applies to instantiated app object
 app.use(routes);
+
+// define behavior for serving assets in production
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+  app.get("*", function(req, res) {
+    res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  });
+}
+
+else {
+  app.use(express.static(path.join(__dirname, '/client/public')));
+  app.get("*", function(req, res) {
+    res.sendFile(path.join(__dirname, "./client/public/index.html"));
+  });
+}
+
 
 // connect to the mongo db
 // per mongo documentation: if the port number is not specified, the default port 27017 is used

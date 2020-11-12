@@ -20,7 +20,7 @@ const Projects = () => {
               <p class="card-text">
                 A learning to support non-technical teams understand how FHIR works!
               </p>
-              <a href="https://tranquil-fortress-53463.herokuapp.com" class="btn btn-primary" target="_blank">
+              <a href="https://tranquil-fortress-53463.herokuapp.com" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
                 Visit Page
               </a>
             </div>
