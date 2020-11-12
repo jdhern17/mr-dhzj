@@ -15,10 +15,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // define behavior for serving assets in production
-if (process.env.NODE_ENV === "production") {
+//if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
   // app.use("/static", express.static(path.join(__dirname, "client/public")));
-}
+//}
 
 // pulls router.Router() from index of routes folder and applies to instantiated app object
 app.use(routes);
