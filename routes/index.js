@@ -13,7 +13,7 @@ router.use("/api", apiRoutes);
 
 // if no api routes are hit, send the react app
 router.use(function(req, res) {
-  res.sendFile(path.join(__dirname, "../client/public/index.html"));
+  res.sendFile(path.join(__dirname, "../client/build/index.html"));
 });
 
 // export router with api routes and html routes
