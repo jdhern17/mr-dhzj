@@ -8,13 +8,17 @@ import BarBtn from "../BarBtn";
 /* This defines the actual bar going down the screen */
 const StyledSideNav = styled.div`
   position: fixed;     /* Fixed Sidebar (stay in place on scroll and position relative to viewport) */
-  height: 100%;
+  height: 80vh;
   width: 15vw;
   z-index: 1;      /* Stay on top of everything */
   top: 3.4em;      /* Stay at the top */
   background-color: #f0e2c7;
   overflow-x: hidden;     /* Disable horizontal scroll */
   padding-top: 10px;
+  overflow-y: scroll;
+  @media (max-width: 543px) {
+    width: 20vw;
+  }
 `;
 
 const SideNav = () => {

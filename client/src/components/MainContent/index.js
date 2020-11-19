@@ -19,6 +19,9 @@ const GridWrapper = styled.div`
   margin-left: 20vw;
   margin-right: 6em;
   grid-auto-rows: minmax(25px, auto);
+    @media (max-width: 543px) {
+    margin-left: 25vw;
+  }
 `; 
 
 const MainContent = () => {

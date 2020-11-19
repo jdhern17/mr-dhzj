@@ -61,27 +61,27 @@ const Skills = () => {
         </div>
       </div>
       <div className="row">
-        <Card image={<img src={twoU} alt="2U" style={{ height: "50px" }} />}>
+        <Card image={<img src={twoU} alt="2U" class="imgStyle" />}>
           <Chart category={"twoU"} chartType={"doughnut"} />
         </Card>
         <Card
-          image={<img src={glytec} alt="Glytec" style={{ height: "50px" }} />}
+          image={<img src={glytec} alt="Glytec" class="imgStyle" />}
         >
           <Chart category={"glytec"} chartType={"doughnut"} />
         </Card>
         <Card
-          image={<img src={athena} alt="athenahealth" style={{ height: "50px" }} />}
+          image={<img src={athena} alt="athenahealth" class="imgStyle" />}
         >
           <Chart category={"athena"} chartType={"doughnut"} />
         </Card>
         <Card
-        image={<img src={usds} alt="US Department of State" style={{ height: "50px" }} />}
+        image={<img src={usds} alt="US Department of State" class="imgStyle" />}
         imageTwo={<img src={usds2} alt="US Department of State" style={{ height: "25px" }} />}
         >
           <Chart category={"usds"} chartType={"doughnut"} />
         </Card>
         <Card
-          image={<img src={usc} alt="University of Southern California" style={{ height: "50px" }} />}
+          image={<img src={usc} alt="University of Southern California" class="imgStyle" />}
         >
           <Chart category={"usc"} chartType={"doughnut"} />
         </Card>
@@ -99,7 +99,7 @@ export default Skills;
     </p>
   </div>
   <div className="card-footer">
-    <img src={athena} alt="Athenahealth" style={{ height: "50px" }} />
+    <img src={athena} alt="Athenahealth" class="imgStyle" />
   </div>
 </div>
 <div className="card text-center" style={{ margin: "10px" }}>

@@ -22,7 +22,7 @@ const FullCV = () => {
           <div className="justify-content-center">
             <div className="accordion" id="accordionExample">
               <Collapse
-                image={<img src={twoU} alt="2U" style={{ height: "50px" }} />}
+                image={<img src={twoU} alt="2U" class="imgStyle"/>}
                 idNum={"One"}
               >
                 <strong>Senior Tutor</strong>
@@ -40,7 +40,7 @@ const FullCV = () => {
                   <img
                     src={harvard}
                     alt="Harvard University"
-                    style={{ height: "50px" }}
+                    class="imgStyle"
                   />
                 }
                 idNum={"Two"}
@@ -55,7 +55,7 @@ const FullCV = () => {
               </Collapse>
               <Collapse
                 image={
-                  <img src={glytec} alt="Glytec" style={{ height: "50px" }} />
+                  <img src={glytec} alt="Glytec" class="imgStyle" />
                 }
                 idNum={"Three"}
               >
@@ -72,7 +72,7 @@ const FullCV = () => {
                   <img
                     src={athena}
                     alt="athenahealth"
-                    style={{ height: "50px" }}
+                    class="imgStyle"
                   />
                 }
                 idNum={"Four"}
@@ -123,7 +123,7 @@ const FullCV = () => {
                   <img
                     src={usds}
                     alt="US Department of State"
-                    style={{ height: "50px" }}
+                    class="imgStyle"
                   />
                 }
                 imageTwo={
@@ -157,7 +157,7 @@ const FullCV = () => {
                   <img
                     src={scheck}
                     alt="Scheck Hillel Community School"
-                    style={{ height: "50px" }}
+                    class="imgStyle"
                   />
                 }
                 idNum={"Six"}
@@ -175,7 +175,7 @@ const FullCV = () => {
                   <img
                     src={usc}
                     alt="University of Southern California"
-                    style={{ height: "50px" }}
+                    class="imgStyle"
                   />
                 }
                 idNum={"Seven"}

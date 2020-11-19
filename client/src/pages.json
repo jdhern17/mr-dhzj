@@ -4,22 +4,22 @@
         "pageName": "Welcome"
     },
     {
-        "title": "about me",
+        "title": "about",
         "linkName": "about-me",
         "pageName": "About"
     },
     {
-        "title": "one-page resume",
+        "title": "resume",
         "linkName": "one-page",
         "pageName": "Resume"
     },
     {
-        "title": "skills breakdown",
+        "title": "skills",
         "linkName": "skills",
         "pageName": "Skills"
     },
     {
-        "title": "full resume/cv",
+        "title": "cv",
         "linkName": "full-cv",
         "pageName": "FullCV"
     },
@@ -34,7 +34,7 @@
         "pageName": "Contact"
     },
     {
-        "title": "download links",
+        "title": "download",
         "linkName": "download",
         "pageName": "Download"
     }
