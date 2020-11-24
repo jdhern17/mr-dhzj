@@ -104,6 +104,10 @@ Bootstrap 4 breakpoints
 }
 
 @media (max-width: 543px) {
+    .cardImgStyle {
+        height: 100px;
+        width: auto;
+    }
     .btn {
         font-size: .7rem;
         padding: 2px;

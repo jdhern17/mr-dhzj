@@ -12,7 +12,9 @@ const Contact = () => {
         <div className="col-lg-10 col-sm-12 col-md-12">
         <div class="card text-center" style={{width: "18rem"}}>
             <div class="card-header">My Email</div>
-            <img src={mail} class="card-img-top" alt="Resume" />
+            <div className="text-center">
+            <img src={mail} class="card-img-top cardImgStyle" alt="Resume" />
+            </div>
             <div class="card-body">
               {/* <h5 class="card-title">Card title</h5> */}
               <p class="card-text">

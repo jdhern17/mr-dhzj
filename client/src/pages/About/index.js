@@ -9,9 +9,9 @@ const About = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-10 col-sm-12 col-md-12">
+        <div className="col-lg-10 col-sm-12 col-md-12 text-center">
           <p>
-            Coming from a background in project & process management, systems
+            {`Coming from a background in project & process management, systems
             integration and web development as well as a strong appreciation for
             continuous learning, I hope to leverage these experiences towards
             helping underrepresented and vulnerable populations thrive. I
@@ -19,14 +19,15 @@ const About = () => {
             focused attention on critical issues and not from incidental
             benefits granted by the status quo. I hope to work within an
             organization striving to strengthen more than just throughput or the
-            bottom line.
+            bottom line.`}
           </p>
           <p>
-            If you believe similarly and know of teams using software, academic
+           {` If you believe similarly and know of teams using software, academic
             research or data science to work against obstacles affecting the
             following groups, please reach out, I would love to talk and learn
-            more!
+            more!`}
           </p>
+          <div className="text-left">
           <ul>
             <li>BIPOC</li>
             <li>The Incarcerated/Released</li>
@@ -43,6 +44,7 @@ const About = () => {
             <li>The Mentally Incapacitated</li>
             <li>The Physically Incapacitated</li>
           </ul>
+          </div>
         </div>
       </div>
     </>

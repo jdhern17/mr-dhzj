@@ -14,7 +14,9 @@ const Projects = () => {
         <div className="col-lg-10 col-sm-12 col-md-12">
           <div class="card text-center" style={{width: "18rem"}}>
             <div class="card-header">DUMonFHIR</div>
-            <img src={dof} class="card-img-top" alt="DUMonFHIR" />
+            <div className="text-center">
+            <img src={dof} class="card-img-top cardImgStyle" alt="DUMonFHIR" />
+            </div>
             <div class="card-body">
               {/* <h5 class="card-title">Card title</h5> */}
               <p class="card-text">
