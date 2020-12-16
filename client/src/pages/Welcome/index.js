@@ -1,5 +1,7 @@
 import React from "react";
-import mePic from "../../assets/images/johnpic.jpg";
+import mePicMed from "../../assets/images/johnpic_medium.jpg";
+import mePicSmall from "../../assets/images/johnpic_small.jpg";
+import mePicLarge from "../../assets/images/johnpic_large.jpg";
 
 const Welcome = () => {
   return (
@@ -15,7 +17,15 @@ const Welcome = () => {
             {`Hello my people! Thank you for visiting my portfolio. On the left sidebar, you'll find some buttons to different pages demonstrating my current skillset and past experiences! Feel free to reach out via the contact information provided if you have any questions.`}
           </p>
           <div className="text-center">
-          <img src={mePic} className="img-fluid rounded" style={{ align: "center" }} />
+            <picture>
+              <source media="(max-width:850px)" srcset={mePicMed} />
+              <source media="(max-width:465px)" srcset={mePicSmall} />
+              <img
+                src={mePicLarge}
+                className="img-fluid rounded"
+                style={{ align: "center" }}
+              />
+            </picture>
           </div>
         </div>
       </div>
