@@ -18,8 +18,8 @@ const Welcome = () => {
           </p>
           <div className="text-center">
             <picture>
-              <source media="(max-width:850px)" srcset={mePicMed} />
-              <source media="(max-width:465px)" srcset={mePicSmall} />
+              <source media="(max-width:850px)" srcSet={mePicMed} />
+              <source media="(max-width:465px)" srcSet={mePicSmall} />
               <img
                 src={mePicMed}
                 className="img-fluid rounded"

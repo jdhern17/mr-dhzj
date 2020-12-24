@@ -1,5 +1,5 @@
 import React from "react";
-import dof from "../../assets/images/dumonfhir_logo.png"
+import dof from "../../assets/images/dumonfhir_logo.png";
 
 const Projects = () => {
   return (
@@ -12,19 +12,64 @@ const Projects = () => {
 
       <div className="row">
         <div className="col-lg-10 col-sm-12 col-md-12">
-          <div class="card text-center" style={{width: "18rem"}}>
-            <div class="card-header">DUMonFHIR</div>
-            <div className="text-center">
-            <img src={dof} class="card-img-top cardImgStyle" alt="DUMonFHIR" />
+          <div className="row">
+            <div className="col-xl-4 col-md-6 col-sm-12 col-12">
+              {/* CARD ONE START */}
+              <div className="card text-center">
+                <div className="card-header">DUMonFHIR</div>
+                <div className="text-center">
+                  <img
+                    src={dof}
+                    className="card-img-top cardImgStyle"
+                    alt="DUMonFHIR"
+                  />
+                </div>
+                <div className="card-body">
+                  {/* <h5 className="card-title">Card title</h5> */}
+                  <p className="card-text">
+                    A learning to support non-technical teams understand how
+                    FHIR works!
+                  </p>
+                  <a
+                    href="https://tranquil-fortress-53463.herokuapp.com"
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit Page
+                  </a>
+                </div>
+              </div>
+              {/* CARD ONE END */}
             </div>
-            <div class="card-body">
-              {/* <h5 class="card-title">Card title</h5> */}
-              <p class="card-text">
-                A learning to support non-technical teams understand how FHIR works!
-              </p>
-              <a href="https://tranquil-fortress-53463.herokuapp.com" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                Visit Page
-              </a>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              {/* CARD TWO START */}
+              <div className="card text-center">
+                <div className="card-header">DUMonFHIR</div>
+                <div className="text-center">
+                  <img
+                    src={dof}
+                    className="card-img-top cardImgStyle"
+                    alt="DUMonFHIR"
+                  />
+                </div>
+                <div className="card-body">
+                  {/* <h5 className="card-title">Card title</h5> */}
+                  <p className="card-text">
+                    A learning to support non-technical teams understand how
+                    FHIR works!
+                  </p>
+                  <a
+                    href="https://tranquil-fortress-53463.herokuapp.com"
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit Page
+                  </a>
+                </div>
+              </div>
+              {/* CARD TWO END */}
             </div>
           </div>
         </div>

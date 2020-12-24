@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 // import {HorizontalBar} from "react-chartjs-2";
 import Chart from "../../components/Chart";
 import athena from "../../assets/images/athena_logo.png";
@@ -12,7 +12,7 @@ import Card from "../../components/Card";
 const Skills = () => {
   return (
     <>
-     <div className="row">
+      <div className="row">
         <div className="col-lg-10 col-md-12 col-sm-12">
           <h1 className="text-center">Technical Skillset</h1>
         </div>
@@ -61,27 +61,39 @@ const Skills = () => {
         </div>
       </div>
       <div className="row">
-        <Card image={<img src={twoU} alt="2U" class="imgStyle" />}>
+        <Card image={<img src={twoU} alt="2U" className="imgStyle" />}>
           <Chart category={"twoU"} chartType={"doughnut"} />
         </Card>
-        <Card
-          image={<img src={glytec} alt="Glytec" class="imgStyle" />}
-        >
+        <Card image={<img src={glytec} alt="Glytec" className="imgStyle" />}>
           <Chart category={"glytec"} chartType={"doughnut"} />
         </Card>
         <Card
-          image={<img src={athena} alt="athenahealth" class="imgStyle" />}
+          image={<img src={athena} alt="athenahealth" className="imgStyle" />}
         >
           <Chart category={"athena"} chartType={"doughnut"} />
         </Card>
         <Card
-        image={<img src={usds} alt="US Department of State" class="imgStyle" />}
-        imageTwo={<img src={usds2} alt="US Department of State" style={{ height: "25px" }} />}
+          image={
+            <img src={usds} alt="US Department of State" className="imgStyle" />
+          }
+          imageTwo={
+            <img
+              src={usds2}
+              alt="US Department of State"
+              style={{ height: "25px" }}
+            />
+          }
         >
           <Chart category={"usds"} chartType={"doughnut"} />
         </Card>
         <Card
-          image={<img src={usc} alt="University of Southern California" class="imgStyle" />}
+          image={
+            <img
+              src={usc}
+              alt="University of Southern California"
+              className="imgStyle"
+            />
+          }
         >
           <Chart category={"usc"} chartType={"doughnut"} />
         </Card>
@@ -92,14 +104,15 @@ const Skills = () => {
 
 export default Skills;
 
-{/* <div className="card text-center" style={{ margin: "10px" }}>
+{
+  /* <div className="card text-center" style={{ margin: "10px" }}>
   <div className="card-body">
     <p className="card-text">
       <Chart category={"athena"} chartType={"doughnut"} />
     </p>
   </div>
   <div className="card-footer">
-    <img src={athena} alt="Athenahealth" class="imgStyle" />
+    <img src={athena} alt="Athenahealth" className="imgStyle" />
   </div>
 </div>
 <div className="card text-center" style={{ margin: "10px" }}>
@@ -134,4 +147,5 @@ export default Skills;
       style={{ height: "50px" }}
     />
   </div>
-</div> */}
+</div> */
+}

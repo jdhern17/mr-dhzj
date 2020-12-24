@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Doughnut, HorizontalBar } from "react-chartjs-2";
 import chartObj from "../Chart/chartData.json";
 const Chart = ({ category, chartType }) => {

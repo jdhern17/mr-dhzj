@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import LinkedIn from "../../assets/images/linkedin_logo.png";
 import GitHub from "../../assets/images/github_logo.png";
 import PDF from "../../assets/images/pdf_logo.png";

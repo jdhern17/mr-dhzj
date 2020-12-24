@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { useParams, Route } from "react-router-dom";
+import React from "react";
+import { useParams } from "react-router-dom";
 import titleArr from "../../pages.json";
 import About from "../../pages/About";
 import Resume from "../../pages/Resume";
@@ -9,7 +9,6 @@ import Projects from "../../pages/Projects";
 import Contact from "../../pages/Contact";
 import Download from "../../pages/Download";
 import Welcome from "../../pages/Welcome";
-import Sidebar from "../Sidebar";
 
 import styled from 'styled-components';
 const GridWrapper = styled.div`

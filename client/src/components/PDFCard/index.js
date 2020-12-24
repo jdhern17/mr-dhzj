@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import { pdfjs } from "react-pdf";
 import resumePDF from "./Hernandez_John_Resume.pdf";

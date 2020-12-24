@@ -22,7 +22,7 @@ const FullCV = () => {
           <div className="justify-content-center">
             <div className="accordion" id="accordionExample">
               <Collapse
-                image={<img src={twoU} alt="2U" class="imgStyle"/>}
+                image={<img src={twoU} alt="2U" className="imgStyle" />}
                 idNum={"One"}
               >
                 <strong>Senior Tutor</strong>
@@ -40,7 +40,7 @@ const FullCV = () => {
                   <img
                     src={harvard}
                     alt="Harvard University"
-                    class="imgStyle"
+                    className="imgStyle"
                   />
                 }
                 idNum={"Two"}
@@ -54,9 +54,7 @@ const FullCV = () => {
                 </li>
               </Collapse>
               <Collapse
-                image={
-                  <img src={glytec} alt="Glytec" class="imgStyle" />
-                }
+                image={<img src={glytec} alt="Glytec" className="imgStyle" />}
                 idNum={"Three"}
               >
                 <strong>Solution Architect</strong>
@@ -69,11 +67,7 @@ const FullCV = () => {
               </Collapse>
               <Collapse
                 image={
-                  <img
-                    src={athena}
-                    alt="athenahealth"
-                    class="imgStyle"
-                  />
+                  <img src={athena} alt="athenahealth" className="imgStyle" />
                 }
                 idNum={"Four"}
               >
@@ -123,7 +117,7 @@ const FullCV = () => {
                   <img
                     src={usds}
                     alt="US Department of State"
-                    class="imgStyle"
+                    className="imgStyle"
                   />
                 }
                 imageTwo={
@@ -157,7 +151,7 @@ const FullCV = () => {
                   <img
                     src={scheck}
                     alt="Scheck Hillel Community School"
-                    class="imgStyle"
+                    className="imgStyle"
                   />
                 }
                 idNum={"Six"}
@@ -175,7 +169,7 @@ const FullCV = () => {
                   <img
                     src={usc}
                     alt="University of Southern California"
-                    class="imgStyle"
+                    className="imgStyle"
                   />
                 }
                 idNum={"Seven"}

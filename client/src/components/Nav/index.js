@@ -5,7 +5,7 @@ const Nav = () => {
     <>
       <nav className="navbar navbar-light fixed-top bg-light">
         <a className="navbar-brand" href="/">
-          {/* <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"/> */}
+          {/* <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" className="d-inline-block align-top" alt="" loading="lazy"/> */}
           mr. dhzj
         </a>
       </nav>
