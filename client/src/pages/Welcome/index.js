@@ -1,7 +1,7 @@
 import React from "react";
-import mePicMed from "../../assets/images/johnpic_medium.jpg";
-import mePicSmall from "../../assets/images/johnpic_small.jpg";
-import mePicLarge from "../../assets/images/johnpic_large.jpg";
+// import mePicMed from "../../assets/images/johnpic_medium.jpg";
+import mePicMed from "../../assets/images/johnpic_medium_circle.png";
+import mePicSmall from "../../assets/images/johnpic_small_circle.png";
 
 const Welcome = () => {
   return (
@@ -21,7 +21,7 @@ const Welcome = () => {
               <source media="(max-width:850px)" srcset={mePicMed} />
               <source media="(max-width:465px)" srcset={mePicSmall} />
               <img
-                src={mePicLarge}
+                src={mePicMed}
                 className="img-fluid rounded"
                 style={{ align: "center" }}
               />
