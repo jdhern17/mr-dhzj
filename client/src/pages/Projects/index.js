@@ -44,31 +44,6 @@ const Projects = () => {
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12">
               {/* CARD TWO START */}
-              <div className="card text-center">
-                <div className="card-header">DUMonFHIR</div>
-                <div className="text-center">
-                  <img
-                    src={dof}
-                    className="card-img-top cardImgStyle"
-                    alt="DUMonFHIR"
-                  />
-                </div>
-                <div className="card-body">
-                  {/* <h5 className="card-title">Card title</h5> */}
-                  <p className="card-text">
-                    A learning to support non-technical teams understand how
-                    FHIR works!
-                  </p>
-                  <a
-                    href="https://tranquil-fortress-53463.herokuapp.com"
-                    className="btn btn-primary"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Visit Page
-                  </a>
-                </div>
-              </div>
               {/* CARD TWO END */}
             </div>
           </div>
