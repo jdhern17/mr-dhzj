@@ -20,7 +20,7 @@ const StyledSideNav = styled.div`
     width: 20vw;
   }
 `;
-// test
+
 const SideNav = () => {
   return (
     <>
