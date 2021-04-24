@@ -8,6 +8,7 @@ import twoU from "../../assets/images/2U_logo.png";
 import usc from "../../assets/images/usc_logo.png";
 import harvard from "../../assets/images/harvard_logo.png";
 import scheck from "../../assets/images/scheck_logo.png";
+import denver from "../../assets/images/codefordenver_logo.png";
 
 const FullCV = () => {
   return (
@@ -15,17 +16,29 @@ const FullCV = () => {
       <div className="row">
         <div className="col-lg-12 col-md-12 col-sm-12">
           <h1 className="text-center">Full Resume / Curriculum Vitae (CV)</h1>
+          <p className="text-center">Click on the tabs below for details.</p>
         </div>
       </div>
       <div className="row">
         <div className="col-lg-12 col-sm-12 col-md-12">
           <div className="justify-content-center">
             <div className="accordion" id="accordionExample">
+            <Collapse
+                image={<img src={denver} alt="Code For Denver" className="imgStyle" />}
+                idNum={"Zero"}
+              >
+                <strong>Developer</strong>
+                <p><i>December 2020 - Present</i></p>
+                <li>
+                  Created a criminal record expungement screener tool for Expunge Colorado to support the expungement of Coloradoans' criminal records by building and collaborating with other developers using tools such as surveyjs and AWS DynamoDB with API Gateway and Lambda.
+                </li>
+              </Collapse>
               <Collapse
                 image={<img src={twoU} alt="2U" className="imgStyle" />}
                 idNum={"One"}
               >
                 <strong>Senior Tutor</strong>
+                <p><i>March 2020 - Present</i></p>
                 <li>
                   Ensure student success by providing troubleshooting support
                   for tools such as VS Code, GitHub, JavaScript, Node.js, MySQL,
@@ -46,6 +59,7 @@ const FullCV = () => {
                 idNum={"Two"}
               >
                 <strong>Full-Stack Web Developer</strong>
+                <p><i>March 2019 - September 2019</i></p>
                 <li>
                   Completed a six-month full-stack coding bootcamp implementing
                   web development tools and practices such as VS Code, GitHub,
@@ -58,6 +72,7 @@ const FullCV = () => {
                 idNum={"Three"}
               >
                 <strong>Solution Architect</strong>
+                <p><i>March 2019 - September 2019</i></p>
                 <li>
                   Project managed the technical delivery of five (5) hospital
                   implementations for interface types such as ADFS SSO, SMART on
@@ -72,6 +87,7 @@ const FullCV = () => {
                 idNum={"Four"}
               >
                 <strong>Network Connectivity Consultant</strong>
+                <p><i>January 2018 - March 2019</i></p>
                 <li>
                   Guaranteed client SLAs and Go-Live adherence metrics of
                   Integration Project Engineers by providing Tier II network
@@ -93,6 +109,7 @@ const FullCV = () => {
                 </li>
                 <br />
                 <strong>Integration Project Engineer</strong>
+                <p><i>June 2016 - December 2017</i></p>
                 <li>
                   Built over 150 integrations involving solutions scoping,
                   message format analysis, interface engine build, product
@@ -130,6 +147,7 @@ const FullCV = () => {
                 idNum={"Five"}
               >
                 <strong>Fulbright Teaching Assistant</strong>
+                <p><i>August 2014 - December 2015</i></p>
                 <li>
                   Project managed the creation of the Instituto de Empresa (IE)
                   language department’s student registration processes, internal
@@ -157,6 +175,7 @@ const FullCV = () => {
                 idNum={"Six"}
               >
                 <strong>Standardized Test Instructor</strong>
+                <p><i>October 2012 - June 2013</i></p>
                 <li>
                   Supported the ACT and SAT exam preparation for over 167
                   students by conducting lectures with class sizes of up to 17
@@ -175,6 +194,7 @@ const FullCV = () => {
                 idNum={"Seven"}
               >
                 <strong>Pullias Research Assistant</strong>
+                <p><i>May 2011 - March 2012</i></p>
                 <li>
                   Catalogued 23 research studies by reviewing and summarizing
                   details such as the literature review theoretical framework,
@@ -186,6 +206,7 @@ const FullCV = () => {
                 </li>
                 <br />
                 <strong>McNair Research Fellow</strong>
+                <p><i>January 2010 - August 2010</i></p>
                 <li>
                   Conducted a comparative cost-benefit study of economic policy
                   responses to recessions in Peru and Colombia.

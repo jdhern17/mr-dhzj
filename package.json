@@ -1,8 +1,8 @@
 {
-    "name": "mr-dhzj",
+    "name": "John's Portfolio",
     "version": "1.0.0",
     "homepage": "https://mr-dhzj-portfolio.herokuapp.com/",
-    "description": "hernandez-portfolio",
+    "description": "Welcome to my portfolio!",
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
