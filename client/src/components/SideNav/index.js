@@ -11,13 +11,18 @@ const StyledSideNav = styled.div`
   height: 80vh;
   width: 15vw;
   z-index: 1; /* Stay on top of everything */
-  top: 12vh; /* Stay at the top */
+  top: 75px; /* Stay at the top */
   background-color: #f0e2c7;
   overflow-x: auto; /* Disable horizontal scroll */
   padding-top: 0px;
+  padding-bottom: 60px;
   overflow-y: auto;
   @media (max-width: 543px) {
     width: 20vw;
+  }
+  @media (max-height: 400px) {
+    top: 12vh;
+    padding-bottom: 12vh;
   }
 `;
 

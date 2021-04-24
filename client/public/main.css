@@ -10,12 +10,12 @@
 }
 
 .navbar {
-    height: 10vh;
+    height: 60px;
 }
 
 .footer {
     position: fixed;
-    max-height: 10vh;
+    height: 60px;
     width: 100%;
     left: 0;
     bottom: 0;
@@ -23,11 +23,11 @@
     background-color: #dab370;
     z-index: 1;
     padding-right: 10px;
-    padding-top: 1vh;
+    padding-top: 5px;
 }
 
 .footerImg {
-    height: 8vh;
+    height: 50px;
     width: auto;
     margin-right: 5px;
 }
@@ -38,7 +38,7 @@
 
 @media (max-height: 400px) {
     .footerImg {
-        height: 8vh;
+        height: 25px;
         width: auto;
         margin-right: 5px;
     }
