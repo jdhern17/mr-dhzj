@@ -10,12 +10,12 @@
 }
 
 .navbar {
-    margin-bottom: 20px
+    height: 10vh;
 }
 
 .footer {
     position: fixed;
-    height: 60px;
+    max-height: 10vh;
     width: 100%;
     left: 0;
     bottom: 0;
@@ -23,7 +23,35 @@
     background-color: #dab370;
     z-index: 1;
     padding-right: 10px;
-    padding-top: 5px;
+    padding-top: 1vh;
+}
+
+.footerImg {
+    height: 8vh;
+    width: auto;
+    margin-right: 5px;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+@media (max-height: 400px) {
+    .footerImg {
+        height: 8vh;
+        width: auto;
+        margin-right: 5px;
+    }
+    .footer {
+        height: 10vh;
+        padding-top: 1vh;
+    }
+    .navbar {
+        height: 10vh;
+    }
+    .navbar-brand {
+        font-size: .8rem;
+    }
 }
 
 

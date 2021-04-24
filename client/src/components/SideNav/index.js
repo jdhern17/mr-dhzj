@@ -11,10 +11,10 @@ const StyledSideNav = styled.div`
   height: 80vh;
   width: 15vw;
   z-index: 1; /* Stay on top of everything */
-  top: 3.4em; /* Stay at the top */
+  top: 12vh; /* Stay at the top */
   background-color: #f0e2c7;
   overflow-x: auto; /* Disable horizontal scroll */
-  padding-top: 10px;
+  padding-top: 0px;
   overflow-y: auto;
   @media (max-width: 543px) {
     width: 20vw;
