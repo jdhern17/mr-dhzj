@@ -14,12 +14,16 @@ import styled from 'styled-components';
 const GridWrapper = styled.div`
   display: grid;
   grid-gap: 10px;
+  padding-top: 80px;
   margin-top: 1em;
   margin-left: 20vw;
   margin-right: 0em;
   grid-auto-rows: minmax(25px, auto);
     @media (max-width: 543px) {
     margin-left: 25vw;
+  }
+  @media(max-height:400px){
+    padding-top:40px;
   }
 `; 
 
