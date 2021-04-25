@@ -80,7 +80,7 @@ const Skills = () => {
             <img
               src={usds2}
               alt="US Department of State"
-              style={{ height: "25px" }}
+              className="imgStyle"
             />
           }
         >
