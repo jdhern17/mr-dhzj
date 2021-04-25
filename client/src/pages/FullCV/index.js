@@ -22,7 +22,7 @@ const FullCV = () => {
       <div className="row">
         <div className="col-lg-12 col-sm-12 col-md-12">
           <div className="justify-content-center">
-            <div className="accordion" id="accordionExample">
+            <div className="accordion" id="accordionExample" style={{maxWidth:"75vw"}}>
             <Collapse
                 image={<img src={denver} alt="Code For Denver" className="imgStyle" />}
                 idNum={"Zero"}
@@ -82,7 +82,7 @@ const FullCV = () => {
               </Collapse>
               <Collapse
                 image={
-                  <img src={athena} alt="athenahealth" className="imgStyle" />
+                  <img src={athena} alt="athenahealth" className="imgStyle"  />
                 }
                 idNum={"Four"}
               >
@@ -141,7 +141,7 @@ const FullCV = () => {
                   <img
                     src={usds2}
                     alt="US Department of State"
-                    style={{ height: "25px" }}
+                    className="imgStyle"
                   />
                 }
                 idNum={"Five"}
