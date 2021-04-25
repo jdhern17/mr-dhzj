@@ -24,6 +24,7 @@ const Welcome = () => {
                 src={mePicMed}
                 className="img-fluid rounded"
                 style={{ align: "center" }}
+                alt="pic of John"
               />
             </picture>
           </div>

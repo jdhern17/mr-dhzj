@@ -1,7 +1,7 @@
 {
     "name": "client",
     "version": "0.1.0",
-    "homepage": "https://mr-dhzj-portfolio.herokuapp.com/",
+    "homepage": "https://dhzj-portfolio.herokuapp.com/",
     "private": true,
     "dependencies": {
         "bootstrap": "^4.5.2",

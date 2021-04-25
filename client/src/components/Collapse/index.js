@@ -21,7 +21,6 @@ const Collapse = ({ title, children, idNum, image, imageTwo }) => {
             </button>
           </h2>
         </div>
-
         <div
           id={"collapse"+idNum}
           className="collapse"
