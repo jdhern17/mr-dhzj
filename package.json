@@ -27,6 +27,7 @@
     "dependencies": {
         "chart.js": "^2.9.4",
         "express": "^4.17.1",
+        "hosted-git-info": "2.8.9",
         "if-env": "^1.0.4",
         "lodash": "4.17.21",
         "mongoose": "^5.10.3",
