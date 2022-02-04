@@ -1,5 +1,6 @@
 [{
         "chartCategory": "summary",
+        "indexAxis": "y",
         "description": {
             "labels": ["PowerPoint/Slides", "Word/Docs", "Excel/Sheets", "JSON/XML", "Flatfile/CSV", "API Consulting", "Browser Dev Tools", "JavaScript", "VS Code", "Single Sign-On Consulting", "HL7v2/CCDA/HL7v3", "SQL/MySQL", "HTTP Troubleshooting", "TCP/IP Troubleshooting", "Node", "Express", "MongoDB", "Scrum/Agile", "Photoshop", "VPN/Phase 1/2", "TLS/Certs/Keys"],
             "datasets": [{
@@ -14,6 +15,7 @@
     },
     {
         "chartCategory": "languages",
+        "indexAxis": "y",
         "description": {
             "labels": ["English", "Spanish"],
             "datasets": [{
@@ -28,6 +30,7 @@
     },
     {
         "chartCategory": "birdsEyeView",
+        "indexAxis": "y",
         "description": {
             "labels": ["Troubleshooting", "Technical Project Delivery"],
             "datasets": [{

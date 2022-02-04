@@ -1,8 +1,7 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import titleArr from "../../pages.json";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import BarBtn from "../BarBtn";
 
 /* This defines the actual bar going down the screen */
@@ -41,5 +40,5 @@ const SideNav = () => {
     </>
   );
 };
-const RouterSideNav = withRouter(SideNav);
-export default RouterSideNav;
+
+export default SideNav;

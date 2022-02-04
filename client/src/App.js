@@ -1,7 +1,7 @@
 import React from "react";
 
 // imports DOM bindings for React Router for route-based code splitting
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import "./App.css";
 import Nav from "./components/Nav";
@@ -12,17 +12,17 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <Nav />
         <div className="container-fluid">
         <Sidebar/>
-        <Switch>          
-          <Route exact path="/" render={() => <Redirect to="/welcome"/>} />
-          <Route path="/:linkId"><MainContent/></Route>
-        </Switch>
+        <Routes>          
+          <Route path="/" element={<Navigate replace to="/welcome" />} />
+          <Route path=":linkId" element={<MainContent/>} />
+        </Routes>
         </div>
         <Footer/>
-      </Router>
+      </BrowserRouter>
     </>
   );
 }

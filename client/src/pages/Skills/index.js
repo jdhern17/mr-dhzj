@@ -1,6 +1,5 @@
 import React from "react";
-// import {HorizontalBar} from "react-chartjs-2";
-import Chart from "../../components/Chart";
+import ChartSelector from "../../components/ChartSelector";
 import athena from "../../assets/images/athena_logo.png";
 import usds from "../../assets/images/usds_logo.png";
 import usds2 from "../../assets/images/usds_logo_text_2.png";
@@ -20,10 +19,9 @@ const Skills = () => {
       <div className="row">
         <div className="col-lg-8 col-sm-12 col-md-12">
           <div className="card text-center">
-            {/* <div className="card-header">Technical Summary</div> */}
             <div className="card-body">
               <p className="card-text">
-                <Chart category={"summary"} chartType={"horizontalBar"} />
+                <ChartSelector category={"summary"} chartType={"horizontalBar"} />
               </p>
             </div>
             <div className="card-footer">
@@ -35,7 +33,7 @@ const Skills = () => {
           <div className="card text-center" style={{ marginBottom: "10px" }}>
             <div className="card-body">
               <p className="card-text">
-                <Chart category={"languages"} chartType={"horizontalBar"} />
+                <ChartSelector category={"languages"} chartType={"horizontalBar"} />
               </p>
             </div>
             <div className="card-footer">
@@ -45,7 +43,7 @@ const Skills = () => {
           <div className="card text-center" style={{ marginBottom: "10px" }}>
             <div className="card-body">
               <p className="card-text">
-                <Chart category={"birdsEyeView"} chartType={"horizontalBar"} />
+                <ChartSelector category={"birdsEyeView"} chartType={"horizontalBar"} />
               </p>
             </div>
             <div className="card-footer">
@@ -62,15 +60,15 @@ const Skills = () => {
       </div>
       <div className="row">
         <Card image={<img src={twoU} alt="2U" className="imgStyle" />}>
-          <Chart category={"twoU"} chartType={"doughnut"} />
+          <ChartSelector category={"twoU"} chartType={"doughnut"} />
         </Card>
         <Card image={<img src={glytec} alt="Glytec" className="imgStyle" />}>
-          <Chart category={"glytec"} chartType={"doughnut"} />
+          <ChartSelector category={"glytec"} chartType={"doughnut"} />
         </Card>
         <Card
           image={<img src={athena} alt="athenahealth" className="imgStyle" />}
         >
-          <Chart category={"athena"} chartType={"doughnut"} />
+          <ChartSelector category={"athena"} chartType={"doughnut"} />
         </Card>
         <Card
           image={
@@ -84,7 +82,7 @@ const Skills = () => {
             />
           }
         >
-          <Chart category={"usds"} chartType={"doughnut"} />
+          <ChartSelector category={"usds"} chartType={"doughnut"} />
         </Card>
         <Card
           image={
@@ -95,7 +93,7 @@ const Skills = () => {
             />
           }
         >
-          <Chart category={"usc"} chartType={"doughnut"} />
+          <ChartSelector category={"usc"} chartType={"doughnut"} />
         </Card>
       </div>
     </>
