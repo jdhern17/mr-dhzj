@@ -13,7 +13,7 @@ const About = () => {
         <p>
             {`Coming from a background in project & process management, systems
             integration, cybersecurity and web development as well as a strong appreciation for
-            continuous learning, I hope to leverage these diverse experiences towards positively impacting organizations and clients at all technical levels..`}
+            continuous learning, I hope to leverage these diverse experiences towards positively impacting organizations and clients at all technical levels.`}
           </p>
           <p>
            {` If you are interested in any of my experiences, please reach out, I would love to talk and learn
