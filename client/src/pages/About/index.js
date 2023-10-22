@@ -11,13 +11,11 @@ const About = () => {
       <div className="row">
         <div className="col-lg-10 col-sm-12 col-md-12 text-center">
         <p>
-            {`Coming from a background in project & process management, systems
-            integration, cybersecurity and web development as well as a strong appreciation for
-            continuous learning, I hope to leverage these diverse experiences towards positively impacting organizations and clients at all technical levels.`}
+            {`Thank you for the interest in my profile. I come from a background in project management, systems integration, cybersecurity and web development and will always sustain a strong appreciation for continuous learning. These diverse experiences, both professionally as well as personally, prepare me uniquely for challenges ranging from troubleshooting an escalated code issue with a dev team in India at 2AM to building a presentation in Spanish with a group of industry professionals taking a cybersecurity bootcamp. I am a digital nomad and a technical consultant at heart. I care about every client I work with and look at prioritizing their issues to meet Go-Live as part of my morning routine. Positivity is my natural self, and I look for it in every setting, no matter the obstacle. I do not let my team down, internal or external, and communicate carefully to ensure expectations are set as accurately as possible throughout an engagement.`}
           </p>
           <p>
-           {` If you are interested in any of my experiences, please reach out, I would love to talk and learn
-            more!`}
+           {` My clients, whether aspiring developers or director-level leaders at large enterprise systems, would all agree that we deserve champagne for fixing that bug! If you are interested in any of my experiences, please reach out, I would love to talk and learn more!
+`}
           </p>
           <div className="text-left">
           {/* <ul>

@@ -14,7 +14,7 @@ const Welcome = () => {
       <div className="row">
         <div className="col-lg-10 col-sm-12 col-md-12 text-center">
           <p>
-            {`Hola my people! Thank you for visiting my portfolio. On the left sidebar, you'll find some buttons to different pages demonstrating my current skillset and past experiences! Feel free to reach out via the contact information provided if you have any questions.`}
+            {`Hello my people! Thank you for visiting my portfolio. On the left sidebar, you'll find some buttons to different pages demonstrating my current skillset and past experiences! Feel free to reach out (hernandez.d.john@gmail.com) if you have any questions.`}
           </p>
           <div className="text-center">
             <picture>
