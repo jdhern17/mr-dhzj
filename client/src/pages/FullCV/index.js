@@ -31,7 +31,7 @@ const FullCV = () => {
                 image={<img src={twoU} alt="2U" className="imgStyle" />}
                 idNum={"One"}
               >
-                <strong>Support Speciailst</strong>
+                <strong>Full-Stack Web Development & Cybersecurity Instructional Support Speciailst</strong>
                 <p>
                   <i>March 2020 - August 2024</i>
                 </p>
@@ -184,7 +184,7 @@ const FullCV = () => {
                 }
                 idNum={"Five"}
               >
-                <strong>Fulbright Teaching Assistant</strong>
+                <strong>Fulbright University Teaching Assistant</strong>
                 <p>
                   <i>August 2014 - December 2015</i>
                 </p>
