@@ -1,7 +1,6 @@
 {
     "name": "johns-portfolio",
     "version": "1.0.0",
-    "homepage": "https://dhzj-portfolio.herokuapp.com/",
     "description": "Welcome to my portfolio!",
     "main": "server.js",
     "scripts": {

@@ -4,7 +4,7 @@ const path = require("path");
 // const mongoose = require("mongoose");
 
 //pull in routes from routes folder (from index file directed to files within api folder)
-const routes = require("./routes");
+// const routes = require("./routes");
 
 // instantiate express objects
 const app = express();
@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // pulls router.Router() from index of routes folder and applies to instantiated app object
-app.use(routes);
+// app.use(routes);
 
 // define behavior for serving assets in production
 if (process.env.NODE_ENV === "production") {
@@ -26,7 +26,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 else {
-  app.use(express.static(path.join(__dirname, '/client/public')));
+  app.use(express.static(path.join(__dirname, 'client/public')));
   app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "./client/public/index.html"));
   });
