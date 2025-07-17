@@ -31,31 +31,20 @@ const FullCV = () => {
                 image={<img src={twoU} alt="2U" className="imgStyle" />}
                 idNum={"One"}
               >
-                <strong>Grader</strong>
+                <strong>Support Speciailst</strong>
                 <p>
-                  <i>May 2022 - Present</i>
+                  <i>March 2020 - August 2024</i>
                 </p>
                 <li>
-                  Conduct quality assessment, acceptance criteria validation and
-                  local testing for student codebases, coding paradigm
-                  adherence, UI/styling practices, infrastructure diagrams, bash
-                  scripts, linux commands, corporate research, forensic and
-                  pentesting reports, SIEM log assessments, security framework
-                  knowledge, security system knowledge and test scripts.
-                </li>
-                <br />
-                <strong>Senior Tutor</strong>
-                <p>
-                  <i>March 2020 - May 2022</i>
-                </p>
+                Provided Tier II multi-platform infrastructure and application support across containers, cloud services, local VMs, full-stack deployments and SecOps tooling through 700+ live troubleshooting and pair programming sessions.
+                  </li>
                 <li>
-                  Ensured student success by providing troubleshooting support
-                  for tools such as Linux, Docker, Splunk, Wireshark, Azure, VS
-                  Code, GitHub, JavaScript, Node.js, MySQL, MongoDB and React.js
-                  as well as coaching for concepts such as algorithms, MVC
-                  architecture, object-oriented programming, microservices and
-                  cybersecurity frameworks.
+                Enabled operational continuity by diagnosing, debugging and resolving technical issues across IaC, Linux VMs, backend APIs, containers, cloud architectures, OS administration, encryption, full-stack codebases, IAM, scripting, frontend stacks, version control, databases, SQL/NoSQL queries, IDS/IPS/SIEM systems and network/firewall applications.
                 </li>
+                <li>
+                Validated, tested and assessed the architectural implementation of 4000+ technical deliverables such as codebases, APIs, schemas, scripts, system configurations, command syntax, packet capture findings, log analyses and pentesting reports.                </li>
+                <li>
+                Delivered technical training in programming, software, security, network, and cloud engineering frameworks, production tooling and best practices, earning 4.9/5 across KPI metrics and performance feedback.                </li>
               </Collapse>
               <Collapse
                 image={

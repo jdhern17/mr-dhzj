@@ -2,10 +2,10 @@
         "chartCategory": "summary",
         "indexAxis": "y",
         "description": {
-            "labels": ["PowerPoint/Slides", "Word/Docs", "Excel/Sheets", "JSON/XML", "Flatfile/CSV", "API Consulting", "Browser Dev Tools", "JavaScript", "VS Code", "Single Sign-On Consulting", "HL7v2/CCDA/HL7v3", "SQL/MySQL", "HTTP Troubleshooting", "TCP/IP Troubleshooting", "Node", "Express", "MongoDB", "Scrum/Agile", "Photoshop", "VPN/Phase 1/2", "TLS/Certs/Keys"],
+            "labels": ["Technical Consulting", "Incident Response", "Troubleshooting", "API Consulting", "HTTP | REST", "MERN.js", "mTLS", "IAM | SSO", "Azure", "microservices", "Linux", "SQL", "Kubernetes", "TCP/IP", "mTLS", "AWS", "IaC", "Scrum/Agile", "SecOps", "IPSec", "Istio"],
             "datasets": [{
                 "label": "Years of Experience",
-                "data": [15, 15, 15, 6, 8, 5, 6, 2, 2, 3, 3, 3, 4, 2, 2, 2, 2, 1, 3, 2, 2],
+                "data": [15, 10, 15, 10, 8, 5, 8, 5, 6, 5, 3, 3, 1, 5, 3, 3, 3, 4, 4, 3, 1],
                 "backgroundColor": "#dab370",
                 "borderWidth": 2,
                 "hoverBackgroundColor": "#d5a350",
@@ -20,7 +20,7 @@
             "labels": ["English", "Spanish"],
             "datasets": [{
                 "label": "Years of Experience",
-                "data": [30, 30, 5],
+                "data": [35, 35, 5],
                 "backgroundColor": "#933710",
                 "borderWidth": 2,
                 "hoverBackgroundColor": "#d5a350",
@@ -32,10 +32,10 @@
         "chartCategory": "birdsEyeView",
         "indexAxis": "y",
         "description": {
-            "labels": ["Troubleshooting", "Technical Project Delivery"],
+            "labels": ["Full-Stack", "Infrastructure"],
             "datasets": [{
                 "label": "Years of Experience",
-                "data": [5, 4, 1],
+                "data": [6, 4, 1],
                 "backgroundColor": "#933710",
                 "borderWidth": 2,
                 "hoverBackgroundColor": "#d5a350",
