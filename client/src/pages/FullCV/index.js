@@ -5,6 +5,7 @@ import usds from "../../assets/images/usds_logo.png";
 import usds2 from "../../assets/images/usds_logo_text_2.png";
 import glytec from "../../assets/images/glytec_logo.png";
 import twoU from "../../assets/images/2U_logo.png";
+import cka from "../../assets/images/cka.png";
 import usc from "../../assets/images/usc_logo.png";
 import harvard from "../../assets/images/harvard_logo.png";
 import scheck from "../../assets/images/scheck_logo.png";
@@ -27,11 +28,23 @@ const FullCV = () => {
               id="accordionExample"
               style={{ maxWidth: "75vw" }}
             >
+                           <Collapse
+                image={<img src={cka} alt="CKA" className="imgStyle" />}
+                idNum={"Hero"}
+              >
+                <strong>Certified Kubernetes Administrator</strong>
+                <p>
+                  <i>July 2025</i>
+                </p>
+                <li>
+                  Managed and troubleshot Kubernetes clusters, demonstrating fluency across key stores, node and pod networking, RBAC configuration, log analysis, Helm and workload scheduling under real-time constraints.
+                  </li>
+              </Collapse>
               <Collapse
                 image={<img src={twoU} alt="2U" className="imgStyle" />}
                 idNum={"One"}
               >
-                <strong>Full-Stack Web Development & Cybersecurity Instructional Support Specialist</strong>
+                <strong>Full-Stack Web Development & Cybersecurity Central Support Specialist</strong>
                 <p>
                   <i>March 2020 - August 2024</i>
                 </p>
