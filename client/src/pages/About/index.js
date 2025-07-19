@@ -11,7 +11,9 @@ const About = () => {
       <div className="row">
         <div className="col-lg-10 col-sm-12 col-md-12 text-center">
         <p>
-            {`Thank you for the interest in my profile. As a Full-Stack Secure Cloud Systems Engineer, I come from a background in systems integration, cloud technologies, cybersecurity and full-stack development and maintain a strong appreciation for continuous learning. These experiences prepare me uniquely for troubleshooting encryption protocol issues to architecting service mesh solutions.`}
+            {`Thank you for visiting my portfolio. I bring a background in systems integration, cloud infrastructure, cybersecurity and full-stack development, with a strong commitment to continuous learning. I'm comfortable working within a variety of technical solutions across the application, security, network and infrastructure spaces, such as troubleshooting encryption issues, monitoring service meshes, building CI/CD pipelines and deploying full-stack applications. 
+            
+            As a Full-Stack Secure Cloud Systems Engineer, I have a passion for supporting, building and optimizing systems.`}
           </p>
           <div className="text-left">
   
