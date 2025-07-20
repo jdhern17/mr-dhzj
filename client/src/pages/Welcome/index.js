@@ -15,6 +15,19 @@ const Welcome = () => {
         <div className="col-lg-10 col-sm-12 col-md-12 text-center">
           <p>
             {`Hello! Thank you for visiting my portfolio. On the left sidebar, you'll find buttons to different pages demonstrating my current skillset and past experiences! Feel free to reach out (hernandez.d.john@gmail.com) if you have any questions.`}
+            <br/>
+            <br/>
+            <a
+                href="mailto:hernandez.d.john@gmail.com"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Send me an Email!
+              </a>
+
+              <br/>
+              <br/>
           </p>
           <div className="text-center">
             <picture>

@@ -17,7 +17,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-8 col-sm-12 col-md-12">
+        <div className="col-lg-8 col-sm-10 col-md-10">
           <div className="card text-center">
             <div className="card-body">
               <p className="card-text">
@@ -47,7 +47,7 @@ const Skills = () => {
               </p>
             </div>
             <div className="card-footer">
-              <h4>Bird's Eye View</h4>
+              <h4>Overiew</h4>
             </div>
           </div>
         </div>

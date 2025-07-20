@@ -54,10 +54,10 @@
                 "hoverBackgroundColor": "#d5a350"
             }],
             "labels": [
-                "Interface Scoping & Consulting",
-                "Interface Project & Go-Live Management",
-                "Connectivity Troubleshooting",
-                "Process & Documentation Management"
+                "Scoping & Consulting",
+                "Go-Live & Deployment",
+                "Testing & Troubleshooting",
+                "Encryption & Networking"
             ]
         }
     },
@@ -89,8 +89,8 @@
                 "hoverBackgroundColor": "#d5a350"
             }],
             "labels": [
-                "Technical Project Management",
-                "Mirth/Iguana",
+                "Solution Architecting",
+                "Integration Building",
                 "Interface Testing"
             ]
         }
@@ -117,16 +117,16 @@
         "description": {
             "datasets": [{
                 "data": [40, 20, 20, 20],
-                "backgroundColor": ["#fff", "#1576d4", "#0f65cc", "#002d58"],
+                "backgroundColor": ["#1F453Dff", "#EBA7BCff", "#062C2Eff", "#F9F8F6ff"],
                 "borderWidth": 1,
                 "borderColor": "#434343",
                 "hoverBackgroundColor": "#d5a350"
             }],
             "labels": [
-                "JavaScript/React",
-                "Node/Express",
-                "MySQL/MongoDB",
-                "HTML/CSS"
+                "MERN.js",
+                "Azure/Docker",
+                "SecOps",
+                "Apollo GraphQL"
             ]
         }
     }
