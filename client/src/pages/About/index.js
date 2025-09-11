@@ -1,4 +1,5 @@
 import React from "react";
+import ChartSelector from "../../components/ChartSelector";
 
 const About = () => {
   return (
@@ -11,15 +12,50 @@ const About = () => {
       <div className="row">
         <div className="col-lg-10 col-sm-12 col-md-12 text-center">
         <p>
-            {`Thank you for visiting my portfolio. I bring a background in systems integration, cloud infrastructure, cybersecurity and full-stack development, with a strong commitment to continuous learning. I'm comfortable working within a variety of technical solutions across the application, security, network and infrastructure spaces, such as troubleshooting encryption issues, monitoring service meshes, building CI/CD pipelines and deploying full-stack applications. 
-            
-            As a Full-Stack Secure Cloud Systems Engineer, I have a passion for supporting, building and optimizing systems.`}
+            {`I am a highly motivated technical engineer with an extensive background across a variety of software environments, such as software integration, cloud infrastructure, cybersecurity and full-stack development. With a strong commitment to continuous learning, I focus on delivering secure solutions, removing organizational friction by diagnosing distributed system issues at scale and communicating effectively across leadership, Product, Development and Infrastructure. My experiences include large multi-system Go-Live deployments, deeply specialized technical consulting for customers and using monitoring and logging tools to troubleshoot a variety of platform issues.
+`}
           </p>
           <div className="text-left">
+
   
           </div>
+
+
+          
         </div>
       </div>
+      <br/>
+      <div className="row">
+
+          <div className="col-lg-5 col-sm-5 col-md-5">
+                <div className="card text-center" style={{ marginBottom: "10px" }}>
+                  <div className="card-body">
+                    <p className="card-text">
+                      <ChartSelector category={"languages"} chartType={"horizontalBar"} />
+                    </p>
+                  </div>
+                  <div className="card-footer">
+                    <h4>Spoken Languages</h4>
+                  </div>
+                </div>
+                </div>
+
+                <div className="col-lg-5 col-sm-5 col-md-5">
+
+
+                <div className="card text-center" style={{ marginBottom: "10px" }}>
+                  <div className="card-body">
+                    <p className="card-text">
+                      <ChartSelector category={"birdsEyeView"} chartType={"horizontalBar"} />
+                    </p>
+                  </div>
+                  <div className="card-footer">
+                    <h4>Overview</h4>
+                  </div>
+                </div>
+              </div>
+              </div>
+
     </>
   );
 };

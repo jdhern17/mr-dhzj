@@ -17,7 +17,7 @@ const Skills = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-8 col-sm-10 col-md-10">
+        <div className="col-lg-10 col-sm-10 col-md-10">
           <div className="card text-center">
             <div className="card-body">
               <p className="card-text">
@@ -29,7 +29,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-sm-12 col-md-12">
+        {/* <div className="col-lg-4 col-sm-12 col-md-12">
           <div className="card text-center" style={{ marginBottom: "10px" }}>
             <div className="card-body">
               <p className="card-text">
@@ -50,7 +50,7 @@ const Skills = () => {
               <h4>Overiew</h4>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <br />
       <div className="row">
