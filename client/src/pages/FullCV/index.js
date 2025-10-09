@@ -44,20 +44,20 @@ const FullCV = () => {
                 image={<img src={twoU} alt="2U" className="imgStyle" />}
                 idNum={"One"}
               >
-                <strong>Full-Stack Web Development & Cybersecurity Central Support Specialist</strong>
+                <strong>Full-Stack Web Development & Cybersecurity Support Specialist</strong>
                 <p>
                   <i>March 2020 - August 2024</i>
                 </p>
                 <li>
-                Provided Tier II multi-platform infrastructure and application support across containers, cloud services, local VMs, full-stack deployments and SecOps tooling through 700+ live troubleshooting and pair programming sessions.
-                  </li>
-                <li>
-                Enabled operational continuity by diagnosing, debugging and resolving technical issues across IaC, Linux VMs, backend APIs, containers, cloud architectures, OS administration, encryption, full-stack codebases, IAM, scripting, frontend stacks, version control, databases, SQL/NoSQL queries, IDS/IPS/SIEM systems and network/firewall applications.
+                Delivered specialized operation-ready technical training for junior engineers and upskilling professionals across Azure, Docker, Ansible, Node, MongoDB, MySQL, Linux, Bash, JavaScript, React, Splunk, Git and Apollo GraphQL, earning 4.9/5 KPI and survey feedback scoring across 400+ sessions involving 100+ relationship-managed student clients.
                 </li>
                 <li>
-                Validated, tested and assessed the architectural implementation of 4000+ technical deliverables such as codebases, APIs, schemas, scripts, system configurations, command syntax, packet capture findings, log analyses and pentesting reports.                </li>
+                Troubleshot and resolved learning platform misconfigurations in cloud, full-stack applications and SecOps tools through live Tier II support across 500+ debugging and pair programming sessions, enabling operational and business continuity.
+                </li>
                 <li>
-                Delivered technical training in programming, software, security, network, and cloud engineering frameworks, production tooling and best practices, earning 4.9/5 across KPI metrics and performance feedback.                </li>
+                Performed code reviews, API endpoint automated testing, user acceptance testing, quality assessments and system command/configuration verification for 4000+ student deliverables within timed and audited ticketing workflows.
+                </li>
+              
               </Collapse>
               <Collapse
                 image={
@@ -74,11 +74,7 @@ const FullCV = () => {
                   <i>December 2020 - March 2021</i>
                 </p>
                 <li>
-                  Created a criminal record expungement screener tool for
-                  Expunge Colorado to support the expungement of Coloradoans'
-                  criminal records by building and collaborating with other
-                  developers using tools such as surveyjs and AWS DynamoDB with
-                  API Gateway and Lambda.
+                Built a survey-based screening tool prototype for Expunge Colorado in collaboration with a team of four professional developers using tools such as AWS DynamoDB, AWS API Gateway, React.js, contentful, serverless and Survey.js.
                 </li>
               </Collapse>
               <Collapse
@@ -91,7 +87,7 @@ const FullCV = () => {
                 }
                 idNum={"Two"}
               >
-                <strong>Full-Stack Web Developer</strong>
+                <strong>Full-Stack Coding Bootcamp</strong>
                 <p>
                   <i>March 2019 - September 2019</i>
                 </p>
