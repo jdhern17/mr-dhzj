@@ -12,8 +12,13 @@ const About = () => {
       <div className="row">
         <div className="col-lg-10 col-sm-12 col-md-12 text-center">
         <p>
-            {`I am a highly motivated technical engineer with an extensive background across a variety of software environments, such as software integration, cloud infrastructure, cybersecurity and full-stack development. With a strong commitment to continuous learning, I focus on delivering secure solutions, removing organizational friction by diagnosing distributed system issues at scale and communicating effectively across leadership, Product, Development and Infrastructure. My experiences include large multi-system Go-Live deployments, deeply specialized technical consulting for customers and using monitoring and logging tools to troubleshoot a variety of platform issues.
+            {`I am a deeply client-dedicated technical solutions specialist with an extensive background across a variety of software environments, such as enterprise systems integration, cloud infrastructure, cybersecurity and full-stack development. With a strong commitment to continuous learning, I focus on delivering secure and scalable solutions, removing organizational friction by diagnosing distributed system issues and communicating progress effectively across Leadership, Product, Development and Infrastructure. My experiences include large multi-system Go-Live deployments as well as specialized technical consulting integrating monitoring and logging tools to troubleshoot a variety of platform issues.
 `}
+          </p>
+
+
+          <p>
+            {`With enterprise-level English and Spanish fluency as well as experience collaborating globally across distributed multi-lingual teams to address C-Suite-level escalations on a 24/7 basis, I have a proven ability to resiliently meet your organization's level of rigor and complexity. Whether the organization's environment prioritizes relationship-managing high-touch critical clients with pixel-perfect communications or delivering cost-effective deadline-based solutions through lightning-speed technical troubleshooting, I have consistently met and exceeded these challenges across multiple software environments.`}
           </p>
           <div className="text-left">
 
@@ -26,7 +31,7 @@ const About = () => {
       </div>
       <br/>
       <div className="row">
-
+      <br/>
           <div className="col-lg-5 col-sm-5 col-md-5">
                 <div className="card text-center" style={{ marginBottom: "10px" }}>
                   <div className="card-body">
@@ -50,7 +55,7 @@ const About = () => {
                     </p>
                   </div>
                   <div className="card-footer">
-                    <h4>Overview</h4>
+                    <h4>Technical Overview</h4>
                   </div>
                 </div>
               </div>

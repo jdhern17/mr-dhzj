@@ -1,6 +1,6 @@
 import React from "react";
 import dof from "../../assets/images/dumonfhir_logo.png";
-import expunge from "../../assets/images/expunge_logo_medium.png"
+import denver from "../../assets/images/codefordenver_logo.png"
 import graph from "../../assets/images/GraphQL_Logo.svg.png"
 
 const Projects = () => {
@@ -11,19 +11,20 @@ const Projects = () => {
           <h1 className="text-center">Projects</h1>
         </div>
       </div>
-
+<br/>
       <div className="row">
-        <div className="col-lg-10 col-sm-12 col-md-12">
-          <div className="row">
+        {/* <div className="col-lg-10 col-sm-12 col-md-12"> */}
+          {/* <div className="row"> */}
             <div className="col-xl-4 col-md-6 col-sm-12">
               {/* CARD TWO START */}
               <div className="card text-center">
-                <div className="card-header">Expunge Colorado Screener Tool</div>
+                <div className="card-header">Code For America - Denver Brigade</div>
                 <div className="text-center">
+                  <br/>
                   <img
-                    src={expunge}
+                    src={denver}
                     className="card-img-top cardImgStyle"
-                    alt="Expunge CO Screener"
+                    alt="Code For America - Denver Brigade"
                   />
                 </div>
                 <div className="card-body">
@@ -42,10 +43,13 @@ const Projects = () => {
                 </div>
               </div>
               {/* CARD TWO END */}
+              </div>
                 {/* CARD THREE START */}
+                <div className="col-xl-4 col-md-6 col-sm-12">
                 <div className="card text-center">
                 <div className="card-header">LinuxQuizzer</div>
                 <div className="text-center">
+                  <br/>
                   <img
                     src={graph}
                     className="card-img-top cardImgStyle"
@@ -67,10 +71,11 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
+              </div>
               {/* CARD THREE END */}
-            </div>
-          </div>
-        </div>
+            {/* </div> */}
+          {/* </div> */}
+        {/* </div> */}
       </div>
     </>
   );
