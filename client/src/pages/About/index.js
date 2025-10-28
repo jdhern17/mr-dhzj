@@ -12,7 +12,7 @@ const About = () => {
       <div className="row">
         <div className="col-lg-10 col-sm-12 col-md-12 text-center">
         <p>
-            {`I am a deeply client-dedicated technical solutions specialist with an extensive background across a variety of software environments, such as enterprise systems integration, cloud infrastructure, cybersecurity and full-stack development. With a strong commitment to continuous learning, I focus on delivering secure and scalable solutions, removing organizational friction by diagnosing distributed system issues and communicating progress effectively across Leadership, Product, Development and Infrastructure. My experiences include large multi-system Go-Live deployments as well as specialized technical consulting integrating monitoring and logging tools to troubleshoot a variety of platform issues.
+            {`I am a client-dedicated technical solutions consultant with an extensive background across a variety of diverse software environments, such as enterprise systems integration and full-stack infrastructure training. With a strong commitment to continuous learning, I focus on delivering secure and scalable solutions, removing friction by diagnosing distributed system issues and communicating solutions effectively across Leadership, Engineering and Clients. My experiences include large multi-system Go-Live deployments as well as specialized technical consulting integrating monitoring and logging tools to troubleshoot a variety of platform issues.
 `}
           </p>
 
