@@ -44,19 +44,27 @@ const FullCV = () => {
                 image={<img src={twoU} alt="2U" className="imgStyle" />}
                 idNum={"One"}
               >
-                <strong>Full-Stack Web Development & Cybersecurity Support Specialist</strong>
+                <strong>Full-Stack Web Development & Cybersecurity Instructional Specialist</strong>
                 <p>
-                  <i>March 2020 - August 2024</i>
+                  <i>June 2021 - August 2024</i>
                 </p>
                 <li>
-                Delivered specialized operation-ready technical training for junior engineers and upskilling professionals across Azure, Docker, Ansible, Node, MongoDB, MySQL, Linux, Bash, JavaScript, React, Splunk, Git and Apollo GraphQL, earning 4.9/5 KPI and survey feedback scoring across 400+ sessions involving 100+ relationship-managed student clients.
-                </li>
-                <li>
-                Troubleshot and resolved learning platform misconfigurations in cloud, full-stack applications and SecOps tools through live Tier II support across 500+ debugging and pair programming sessions, enabling operational and business continuity.
+                Troubleshot and resolved learning platform misconfigurations in Azure, MERN, Ansible, Docker, Linux, Bash, Splunk, Wireshark, Burp Suite, Metasploit, Git and Apollo GraphQL through live Tier II support across 500+ debugging and pair programming sessions, enabling operational and business continuity.
                 </li>
                 <li>
                 Performed code reviews, API endpoint automated testing, user acceptance testing, quality assessments and system command/configuration verification for 4000+ student deliverables within timed and audited ticketing workflows.
                 </li>
+<br/>
+                <strong>Central Support Web Development Tutoring Specialist</strong>
+                <p>
+                  <i>March 2020 - June 2021</i>
+                </p>
+                <li>
+                Delivered specialized operation-ready technical training for junior engineers across Node, MongoDB, MySQL, JavaScript and React, earning 4.9/5 CSAT score.                </li>
+                <li>
+                Enabled technical success, product engagement and program completion through 50+ relationship-managed engineering student customers.
+                </li>
+      
               
               </Collapse>
               <Collapse
