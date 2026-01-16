@@ -44,7 +44,7 @@ const FullCV = () => {
                 image={<img src={twoU} alt="2U" className="imgStyle" />}
                 idNum={"One"}
               >
-                <strong>Full-Stack Web Development & Cybersecurity Instructional Specialist</strong>
+                <strong>Full-Stack Web Application & Cybersecurity Specialist</strong>
                 <p>
                   <i>June 2021 - August 2024</i>
                 </p>
@@ -55,7 +55,7 @@ const FullCV = () => {
                 Performed code reviews, API endpoint automated testing, user acceptance testing, quality assessments and system command/configuration verification for 4000+ student deliverables within timed and audited ticketing workflows.
                 </li>
 <br/>
-                <strong>Central Support Web Development Tutoring Specialist</strong>
+                <strong>Web Development Training Specialist</strong>
                 <p>
                   <i>March 2020 - June 2021</i>
                 </p>
