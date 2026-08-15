@@ -2,10 +2,10 @@
         "chartCategory": "summary",
         "indexAxis": "y",
         "description": {
-            "labels": ["Technical Consulting", "Incident Response", "Troubleshooting", "API Consulting", "HTTP | REST", "MERN.js", "mTLS", "IAM | SSO", "Azure", "microservices", "Linux", "SQL", "Kubernetes", "TCP/IP", "mTLS", "AWS", "IaC", "Scrum/Agile", "SecOps", "IPSec", "Istio"],
+            "labels": ["Technical Consulting", "Incident Response", "Troubleshooting", "API Consulting", "HTTP | REST", "JavaScript | MERN.js | GraphQL", "mTLS", "IAM | SSO", "AppSec", "microservices", "Linux | Bash", "SQL", "Kubernetes | Docker", "TCP/IP", "mTLS", "AWS | Azure", "IaC", "Scrum/Agile", "SecOps", "Python", "Java"],
             "datasets": [{
                 "label": "Years of Experience",
-                "data": [15, 10, 15, 10, 8, 5, 8, 5, 6, 5, 3, 3, 1, 5, 3, 3, 3, 4, 4, 3, 1],
+                "data": [15, 10, 15, 10, 10, 5, 8, 10, 5, 5, 5, 4, 5, 5, 3, 5, 5, 4, 8, 3, 1],
                 "backgroundColor": "#dab370",
                 "borderWidth": 2,
                 "hoverBackgroundColor": "#d5a350",
@@ -17,10 +17,10 @@
         "chartCategory": "languages",
         "indexAxis": "y",
         "description": {
-            "labels": ["English", "Spanish"],
+            "labels": ["Networking", "Security"],
             "datasets": [{
                 "label": "Years of Experience",
-                "data": [35, 35, 5],
+                "data": [12, 10, 5],
                 "backgroundColor": "#933710",
                 "borderWidth": 2,
                 "hoverBackgroundColor": "#d5a350",
@@ -32,15 +32,33 @@
         "chartCategory": "birdsEyeView",
         "indexAxis": "y",
         "description": {
-            "labels": ["Full-Stack", "Infrastructure"],
+            "labels": ["Cloud", "Programming"],
             "datasets": [{
                 "label": "Years of Experience",
-                "data": [6, 4, 1],
+                "data": [6, 5, 1],
                 "backgroundColor": "#933710",
                 "borderWidth": 2,
                 "hoverBackgroundColor": "#d5a350",
                 "minBarLength": 2
             }]
+        }
+    },
+    {
+        "chartCategory": "blackduck",
+        "description": {
+            "datasets": [{
+                "data": [25, 25, 25, 25],
+                "backgroundColor": ["#582c83", "#000000", "#ffffff", "#B49DC8"],
+                "borderWidth": 1,
+                "borderColor": "#434343",
+                "hoverBackgroundColor": "#d5a350"
+            }],
+            "labels": [
+                "Cloud Deployments",
+                "Vulnerability Remediation",
+                "Scripting & Troubleshooting",
+                "Infrastructure & Networking"
+            ]
         }
     },
     {
@@ -117,7 +135,7 @@
         "description": {
             "datasets": [{
                 "data": [40, 20, 20, 20],
-                "backgroundColor": ["#1F453Dff", "#EBA7BCff", "#062C2Eff", "#F9F8F6ff"],
+                "backgroundColor": ["#1F453Dff", "#EBA7BCff", "#1475D3", "#F9F8F6ff"],
                 "borderWidth": 1,
                 "borderColor": "#434343",
                 "hoverBackgroundColor": "#d5a350"

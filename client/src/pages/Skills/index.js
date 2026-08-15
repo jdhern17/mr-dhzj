@@ -7,6 +7,7 @@ import glytec from "../../assets/images/glytec_logo.png";
 import twoU from "../../assets/images/2U_logo.png";
 import usc from "../../assets/images/usc_logo.png";
 import Card from "../../components/Card";
+import blackduck from "../../assets/images/blackduck_logo.png";
 
 const Skills = () => {
   return (
@@ -59,6 +60,9 @@ const Skills = () => {
         </div>
       </div>
       <div className="row">
+      <Card image={<img src={blackduck} alt="black duck" className="imgStyle" />}>
+          <ChartSelector category={"blackduck"} chartType={"doughnut"} />
+        </Card>
         <Card image={<img src={twoU} alt="2U" className="imgStyle" />}>
           <ChartSelector category={"twoU"} chartType={"doughnut"} />
         </Card>
