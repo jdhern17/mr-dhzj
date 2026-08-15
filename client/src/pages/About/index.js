@@ -12,7 +12,7 @@ const About = () => {
       <div className="row">
         <div className="col-lg-10 col-sm-12 col-md-12 text-center">
         <p>
-            {`I am a client-dedicated DevSecOps engineer with an extensive background across a variety of diverse software ecosystems, such as enterprise application security, systems integration and full-stack security training. With a strong commitment to continuous learning, I focus on delivering secure and scalable solutions, removing friction by diagnosing distributed system issues and communicating solutions effectively across Leadership, Engineering and Clients. My experiences include large multi-system Go-Live deployments as well as specialized technical consulting integrating monitoring and logging tools to troubleshoot a variety of platform issues.
+            {`I am a client-dedicated DevSecOps Engineer with an extensive background across a variety of diverse software ecosystems, such as enterprise application security, systems integration and full-stack security training. With a strong commitment to continuous learning, I focus on delivering secure and scalable solutions, removing friction by diagnosing distributed system issues and communicating solutions effectively across Leadership, Engineering and Clients. My experiences include large multi-system Go-Live deployments as well as specialized technical consulting integrating monitoring and logging tools to troubleshoot a variety of platform issues.
 `}
           </p>
 
@@ -40,7 +40,7 @@ const About = () => {
                     </p>
                   </div>
                   <div className="card-footer">
-                    <h4>Spoken Languages</h4>
+                    <h4>Stacks</h4>
                   </div>
                 </div>
                 </div>
@@ -55,7 +55,7 @@ const About = () => {
                     </p>
                   </div>
                   <div className="card-footer">
-                    <h4>Technical Overview</h4>
+                    <h4>Platforms</h4>
                   </div>
                 </div>
               </div>

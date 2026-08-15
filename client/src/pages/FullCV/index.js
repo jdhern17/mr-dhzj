@@ -10,6 +10,7 @@ import usc from "../../assets/images/usc_logo.png";
 import harvard from "../../assets/images/harvard_logo.png";
 import scheck from "../../assets/images/scheck_logo.png";
 import denver from "../../assets/images/codefordenver_logo.png";
+import blackduck from "../../assets/images/blackduck_logo.png";
 
 const FullCV = () => {
   return (
@@ -29,8 +30,24 @@ const FullCV = () => {
               style={{ maxWidth: "75vw" }}
             >
                            <Collapse
+                image={<img src={blackduck} alt="Black Duck" className="imgStyle" />}
+                idNum={"bd"}
+              >
+                <strong>Application Security Engineer</strong>
+                <p>
+                  <i>November 2025 - Present</i>
+                </p>
+                <li>
+                Own the successful deployment and operation of DevSecOps engineering applications involving cloud platform installation, container and server configurations, CICD pipeline instrumentation, IAM architecture design, network security troubleshooting and SBOM reporting as well as microservice and embedded OS vulnerability remediation management.
+                </li><li>
+Deploy and troubleshoot Kubernetes and Docker Swarm installations, addressing issues such as ingress routing rules, helm commands, container settings, Postgres extensions, sizing, compatibility, service communications, certificates, load balancer settings and environment secret misconfigurations.
+</li><li>
+Operationalize vulnerability investigation, consulting, triage, remediation, reporting, automation and policy management for enterprise software applications and organizations.
+                  </li>
+              </Collapse>
+                           <Collapse
                 image={<img src={cka} alt="CKA" className="imgStyle" />}
-                idNum={"Hero"}
+                idNum={"cka"}
               >
                 <strong>Certified Kubernetes Administrator</strong>
                 <p>
@@ -42,9 +59,9 @@ const FullCV = () => {
               </Collapse>
               <Collapse
                 image={<img src={twoU} alt="2U" className="imgStyle" />}
-                idNum={"One"}
+                idNum={"2u"}
               >
-                <strong>Full-Stack Web Application & Cybersecurity Specialist</strong>
+                <strong>Full-Stack Applications & Cybersecurity Training Specialist</strong>
                 <p>
                   <i>June 2021 - August 2024</i>
                 </p>
@@ -60,7 +77,7 @@ const FullCV = () => {
                   <i>March 2020 - June 2021</i>
                 </p>
                 <li>
-                Delivered specialized operation-ready technical training for junior engineers across Node, MongoDB, MySQL, JavaScript and React, earning 4.9/5 CSAT score.                </li>
+                Delivered specialized operation-ready technical training for junior developers across Node, MongoDB, MySQL, JavaScript and React, earning 4.9/5 CSAT score.                </li>
                 <li>
                 Enabled technical success, product engagement and program completion through 50+ relationship-managed engineering student customers.
                 </li>
@@ -71,11 +88,11 @@ const FullCV = () => {
                 image={
                   <img
                     src={denver}
-                    alt="Code For Denver"
+                    alt="Code For America (Denver)"
                     className="imgStyle"
                   />
                 }
-                idNum={"Zero"}
+                idNum={"america"}
               >
                 <strong>Developer</strong>
                 <p>
@@ -93,7 +110,7 @@ const FullCV = () => {
                     className="imgStyle"
                   />
                 }
-                idNum={"Two"}
+                idNum={"harvard"}
               >
                 <strong>Full-Stack Coding Bootcamp</strong>
                 <p>
@@ -108,7 +125,7 @@ const FullCV = () => {
               </Collapse>
               <Collapse
                 image={<img src={glytec} alt="Glytec" className="imgStyle" />}
-                idNum={"Three"}
+                idNum={"glytec"}
               >
                 <strong>Solution Architect</strong>
                 <p>
@@ -125,11 +142,11 @@ const FullCV = () => {
                 image={
                   <img src={athena} alt="athenahealth" className="imgStyle" />
                 }
-                idNum={"Four"}
+                idNum={"athena"}
               >
-                <strong>Network Connectivity Consultant</strong>
+                <strong>Integration Connectivity Consultant</strong>
                 <p>
-                  <i>January 2018 - March 2019</i>
+                  <i>June 2016 - March 2019</i>
                 </p>
                 <li>
                   Guaranteed client SLAs and Go-Live adherence metrics of
@@ -151,7 +168,7 @@ const FullCV = () => {
                   access-list, debug and config outputs.
                 </li>
                 <br />
-                <strong>Integration Project Engineer</strong>
+                <strong>Systems Integration Project Engineer</strong>
                 <p>
                   <i>June 2016 - December 2017</i>
                 </p>
@@ -162,7 +179,7 @@ const FullCV = () => {
                   Production deployment and Go-Live coordination.
                 </li>
                 <li>
-                  Managed the business operations of a team of 18 Offshore
+                  Managed the business operations of a team of 7 Offshore
                   Partner Integration Engineers through process creation,
                   feedback cycles, escalation management, technical mentorship,
                   training, and product documentation.
@@ -199,9 +216,9 @@ const FullCV = () => {
                     className="imgStyle"
                   />
                 }
-                idNum={"Five"}
+                idNum={"usds"}
               >
-                <strong>Fulbright University Teaching Assistant</strong>
+                <strong>IE University Fulbright Assistant</strong>
                 <p>
                   <i>August 2014 - December 2015</i>
                 </p>
@@ -219,28 +236,11 @@ const FullCV = () => {
                 <li>
                   Strengthened faculty and staff Business English skills by
                   lecturing nightly workshops, case studies, and mock projects.
-                </li>
-              </Collapse>
-              <Collapse
-                image={
-                  <img
-                    src={scheck}
-                    alt="Scheck Hillel Community School"
-                    className="imgStyle"
-                  />
-                }
-                idNum={"Six"}
-              >
-                <strong>Standardized Test Instructor</strong>
-                <p>
-                  <i>October 2012 - June 2013</i>
-                </p>
-                <li>
-                  Supported the ACT and SAT exam preparation for over 167
-                  students by conducting lectures with class sizes of up to 17
-                  students as well as providing college application readiness
-                  and tutoring services.
-                </li>
+                </li><li>
+                Led the full implementation of new test score scaling tools through vendor assessments, sample testing, workflow training and deployment.
+                </li><li>
+Strengthened operational resilience by collecting data from disparate departments and platforms in order to construct PivotTables and interactive workbooks for leadership reporting deliverables such as budget distribution, growth summaries and placement algorithms.
+</li>
               </Collapse>
               <Collapse
                 image={
@@ -250,7 +250,7 @@ const FullCV = () => {
                     className="imgStyle"
                   />
                 }
-                idNum={"Seven"}
+                idNum={"usc"}
               >
                 <strong>Pullias Research Assistant</strong>
                 <p>
