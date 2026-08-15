@@ -18,7 +18,7 @@ const About = () => {
 
 
           <p>
-            {`With enterprise-level English and Spanish fluency as well as experience collaborating globally across distributed teams to address C-Suite-level P0 escalations on a 24/7 basis, I have a proven ability to resiliently meet your organization's level of rigor and complexity. Whether the organization's environment prioritizes relationship-managing high-touch critical clients with pixel-perfect communications or delivering cost-effective deadline-based engineering solutions through rapid troubleshooting, I have consistently met and exceeded these challenges across multiple software environments.`}
+            {`With enterprise-level fluency across programming, networking, security, infrastructure and cloud as well as experience collaborating globally with distributed teams to address C-Suite-level P0 escalations on a near-24/7 basis, I have a proven ability to resiliently meet your organization's level of rigor and complexity. Whether the organization's environment prioritizes relationship-managing high-touch critical clients with pixel-perfect communications or delivering cost-effective deadline-based engineering solutions through rapid troubleshooting, I have consistently met and exceeded these challenges across multiple software environments.`}
           </p>
           <div className="text-left">
 
