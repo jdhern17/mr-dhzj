@@ -35,7 +35,7 @@
             "labels": ["Cloud", "Programming"],
             "datasets": [{
                 "label": "Years of Experience",
-                "data": [6, 8, 1],
+                "data": [6, 5, 1],
                 "backgroundColor": "#933710",
                 "borderWidth": 2,
                 "hoverBackgroundColor": "#d5a350",
