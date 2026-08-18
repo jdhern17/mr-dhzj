@@ -56,8 +56,8 @@
             "labels": [
                 "Cloud Deployments",
                 "Vulnerability Remediation",
-                "Scripting & Troubleshooting",
-                "Infrastructure & Networking"
+                "Scripting & DevOps",
+                "Infrastructure & Security"
             ]
         }
     },
@@ -134,7 +134,7 @@
         "chartCategory": "twoU",
         "description": {
             "datasets": [{
-                "data": [40, 20, 20, 20],
+                "data": [30, 20, 30, 20],
                 "backgroundColor": ["#1F453Dff", "#EBA7BCff", "#1475D3", "#F9F8F6ff"],
                 "borderWidth": 1,
                 "borderColor": "#434343",
