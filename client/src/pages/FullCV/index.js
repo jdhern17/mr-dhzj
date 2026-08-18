@@ -61,12 +61,15 @@ Operationalize vulnerability investigation, consulting, triage, remediation, rep
                 image={<img src={twoU} alt="2U" className="imgStyle" />}
                 idNum={"2u"}
               >
-                <strong>Full-Stack Applications & Cybersecurity Training Specialist</strong>
+                <strong>Full-Stack Application Development & Cybersecurity Specialist</strong>
                 <p>
                   <i>June 2021 - August 2024</i>
                 </p>
                 <li>
-                Troubleshot and resolved learning platform misconfigurations in Azure, MERN, Ansible, Docker, Linux, Bash, Splunk, Wireshark, Burp Suite, Metasploit, Git and Apollo GraphQL through live Tier II support across 500+ debugging and pair programming sessions, enabling operational and business continuity.
+                Delivered full-stack technical services for software development and cybersecurity professional training programs across 100+ institutional partners, earning 4.9/5 CSAT score.
+                </li>
+                <li>
+                Troubleshot and resolved 1000+ application misconfigurations and development issues across Azure, MERN, SQL, Ansible, Docker, Linux, Bash, Splunk, Wireshark, Burp Suite, Metasploit, Git and GraphQL via live debugging sessions.
                 </li>
                 <li>
                 Performed code reviews, API endpoint automated testing, user acceptance testing, quality assessments and system command/configuration verification for 4000+ student deliverables within timed and audited ticketing workflows.
