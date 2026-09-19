@@ -61,28 +61,28 @@ Operationalize vulnerability investigation, consulting, triage, remediation, rep
                 image={<img src={twoU} alt="2U" className="imgStyle" />}
                 idNum={"2u"}
               >
-                <strong>Full-Stack Application Development & Cybersecurity Specialist</strong>
+                <strong>Full-Stack Web Development & Cybersecurity Specialist</strong>
                 <p>
                   <i>June 2021 - August 2024</i>
                 </p>
                 <li>
-                Delivered full-stack technical services for software development and cybersecurity professional training programs across 100+ institutional partners, earning 4.9/5 CSAT score.
+                Supported full-stack software development and cybersecurity training environments across 100+ institutional partners, earning 4.9/5 CSAT score.
                 </li>
                 <li>
-                Troubleshot and resolved 1000+ application misconfigurations and development issues across Azure, MERN, SQL, Ansible, Docker, Linux, Bash, Splunk, Wireshark, Burp Suite, Metasploit, Git and GraphQL via live debugging sessions.
+                Diagnosed and resolved 1000+ application misconfigurations and development issues across Azure, MERN, SQL, Ansible, Docker, Linux, Bash, Splunk, Wireshark, Burp Suite, Metasploit, Git and GraphQL via live debugging sessions.
                 </li>
                 <li>
                 Performed code reviews, API endpoint automated testing, user acceptance testing, quality assessments and system command/configuration verification for 4000+ student deliverables within timed and audited ticketing workflows.
                 </li>
 <br/>
-                <strong>Web Development Training Specialist</strong>
+                <strong>Full-Stack Web Development Specialist</strong>
                 <p>
                   <i>March 2020 - June 2021</i>
                 </p>
                 <li>
-                Delivered specialized operation-ready technical training for junior developers across Node, MongoDB, MySQL, JavaScript and React, earning 4.9/5 CSAT score.                </li>
+                Delivered specialized operation-ready technical training for junior developers across Node, MongoDB, MySQL, JavaScript and React.                </li>
                 <li>
-                Enabled technical success, product engagement and program completion through 50+ relationship-managed engineering student customers.
+                Enabled technical success, product engagement and program completion through 50+ students.
                 </li>
       
               
