@@ -66,13 +66,16 @@ Operationalize vulnerability investigation, consulting, triage, remediation, rep
                   <i>June 2021 - August 2024</i>
                 </p>
                 <li>
-                Supported full-stack software development and cybersecurity training environments across 100+ institutional partners, earning 4.9/5 CSAT score.
+                Provided engineering support for full-stack codebases and cybersecurity applications across 100+ partner education programs, earning 4.9/5 CSAT score.
                 </li>
                 <li>
-                Diagnosed and resolved 1000+ application misconfigurations and development issues across Azure, MERN, SQL, Ansible, Docker, Linux, Bash, Splunk, Wireshark, Burp Suite, Metasploit, Git and GraphQL via live debugging sessions.
+Diagnosed and resolved 1000+ system misconfigurations and programming errors across Azure, React, Node, npm, SQL, Docker, Linux, Bash, Splunk, Wireshark, Burp Suite, Metasploit, Git, REST and GraphQL through live debugging sessions.
                 </li>
                 <li>
-                Performed code reviews, API endpoint automated testing, user acceptance testing, quality assessments and system command/configuration verification for 4000+ student deliverables within timed and audited ticketing workflows.
+Performed code reviews, API endpoint automated testing, user acceptance testing, quality assessments and system command/configuration verification for 4000+ student deliverables within timed and audited ticketing workflows.
+                </li>
+                <li>
+Provided technical guidance for project feature enhancements, package integrations, dependency management, product presentations, cybersecurity forensic reports, pentesting simulations, SIEM log analyses and packet captures.
                 </li>
 <br/>
                 <strong>Full-Stack Web Development Specialist</strong>
@@ -80,9 +83,7 @@ Operationalize vulnerability investigation, consulting, triage, remediation, rep
                   <i>March 2020 - June 2021</i>
                 </p>
                 <li>
-                Delivered specialized operation-ready technical training for junior developers across Node, MongoDB, MySQL, JavaScript and React.                </li>
-                <li>
-                Enabled technical success, product engagement and program completion through 50+ students.
+                Delivered specialized operation-ready technical training for developers across Node, MongoDB, MySQL, JavaScript and React.
                 </li>
       
               
@@ -171,7 +172,7 @@ Operationalize vulnerability investigation, consulting, triage, remediation, rep
                   access-list, debug and config outputs.
                 </li>
                 <br />
-                <strong>Systems Integration Project Engineer</strong>
+                <strong>Application Integration Project Engineer</strong>
                 <p>
                   <i>June 2016 - December 2017</i>
                 </p>
