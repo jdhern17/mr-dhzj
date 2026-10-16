@@ -18,7 +18,7 @@ const About = () => {
 
 
           <p>
-            {`With enterprise-level fluency across programming, networking, security, infrastructure and cloud as well as experience collaborating globally with distributed teams to address C-Suite-level P0 escalations on a near-24/7 basis, I have a proven ability to resiliently meet your team's level of rigor and complexity. Whether the organization prioritizes leading high-touch engineering projects with pixel-perfect communications or building DevOps tools through rapid iterative delivery, I have consistently met and exceeded these challenges across multiple software tech stacks.`}
+            {`With enterprise-level fluency across programming, networking, security, infrastructure and cloud as well as experience collaborating globally with distributed teams to address C-Suite-level P0 escalations on a near-24/7 basis, I have a proven ability to resiliently meet your team's level of rigor and complexity. Whether the organization prioritizes leading high-touch engineering projects with pixel-perfect communications or building tools through rapid iterative delivery, I have consistently met and exceeded these challenges across multiple software tech stacks.`}
           </p>
           <div className="text-left">
 
