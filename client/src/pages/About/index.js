@@ -12,13 +12,13 @@ const About = () => {
       <div className="row">
         <div className="col-lg-10 col-sm-12 col-md-12 text-center">
         <p>
-            {`I am a client-dedicated DevSecOps Engineer with an extensive background across a variety of diverse software environments, such as enterprise AppSec engineering, systems integration, cybersecurity consulting and full-stack technical support. With a lifelong commitment to continuous learning, I focus on delivering secure and scalable solutions, removing friction by diagnosing distributed system issues and communicating effectively across Leadership, Engineering and Customers. My experiences include large multi-system Go-Live deployments as well as specialized engineering consulting integrating monitoring and logging tools to troubleshoot a variety of platform issues.
+            {`I am a client-dedicated DevSecOps Engineer with an extensive background across a variety of diverse software environments, such as enterprise AppSec engineering, systems integration, cybersecurity consulting and full-stack technical support. With a lifelong commitment to continuous learning, I focus on delivering secure and scalable solutions, removing friction by diagnosing distributed system issues and communicating effectively across Leadership, Engineering and Customers. My experiences include large multi-system Go-Live deployments as well as specialized engineering consulting, integrating monitoring and logging tools to troubleshoot a variety of platform issues.
 `}
           </p>
 
 
           <p>
-            {`With enterprise-level fluency across programming, networking, security, infrastructure and cloud as well as experience collaborating globally with distributed teams to address C-Suite-level P0 escalations on a near-24/7 basis, I have a proven ability to resiliently meet your team's level of rigor and complexity. Whether the organization prioritizes leading high-touch engineering projects with pixel-perfect communications or building engineering tools through rapid iterative delivery, I have consistently met and exceeded these challenges across multiple software tech stacks.`}
+            {`With enterprise-level fluency across programming, networking, security, infrastructure and cloud as well as experience collaborating globally with distributed teams to address C-Suite-level P0 escalations on a near-24/7 basis, I have a proven ability to resiliently meet your team's level of rigor and complexity. Whether the organization prioritizes leading high-touch engineering projects with pixel-perfect communications or building DevOps tools through rapid iterative delivery, I have consistently met and exceeded these challenges across multiple software tech stacks.`}
           </p>
           <div className="text-left">
 
