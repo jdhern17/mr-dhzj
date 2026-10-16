@@ -33,7 +33,7 @@ const FullCV = () => {
                 image={<img src={blackduck} alt="Black Duck" className="imgStyle" />}
                 idNum={"bd"}
               >
-                <strong>Application Security Engineer</strong>
+                <strong>Senior Application Security Engineer</strong>
                 <p>
                   <i>November 2025 - Present</i>
                 </p>
@@ -83,7 +83,7 @@ Provided technical guidance for project feature enhancements, package integratio
                   <i>March 2020 - June 2021</i>
                 </p>
                 <li>
-                Delivered specialized operation-ready technical training for developers across Node, MongoDB, MySQL, JavaScript and React.
+                Delivered specialized operation-ready training for developers across Node, MongoDB, MySQL, JavaScript and React.
                 </li>
       
               
@@ -150,7 +150,7 @@ Provided technical guidance for project feature enhancements, package integratio
               >
                 <strong>Integration Connectivity Consultant</strong>
                 <p>
-                  <i>June 2016 - March 2019</i>
+                  <i>January 2018 - March 2019</i>
                 </p>
                 <li>
                   Guaranteed client SLAs and Go-Live adherence metrics of
