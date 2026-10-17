@@ -66,7 +66,7 @@ Operationalize vulnerability investigation, consulting, triage, remediation, rep
                   <i>June 2021 - August 2024</i>
                 </p>
                 <li>
-                Provided engineering support for full-stack codebases and cybersecurity applications across 100+ partner education programs, earning 4.9/5 CSAT score.
+                Provided engineering support and technical training for full-stack codebases and cybersecurity applications across 100+ partner education programs, earning 4.9/5 CSAT score.
                 </li>
                 <li>
 Diagnosed and resolved 1000+ system misconfigurations and programming errors across Azure, React, Node, npm, SQL, Docker, Linux, Bash, Splunk, Wireshark, Burp Suite, Metasploit, Git, REST and GraphQL through live debugging sessions.
